@@ -1,0 +1,14 @@
+{
+    "watch": ["src/controllers", "src/routes", "src/models", "src/config"],
+    "ext": "js,json",
+    "ignore": ["node_modules", "src/*/.test.js", "src/public"],
+    "exec": "node src/app.js",
+    "delay": 1000,
+    "verbose": true,
+    "events": {
+      "restart": "echo 'Server restarted due to changes'"
+    },
+    "env": {
+      "NODE_ENV": "development"
+    }
+  }

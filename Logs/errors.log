@@ -1,0 +1,43 @@
+{"level":"error","message":"Login failed: Missing required fields","timestamp":"2025-08-08T17:48:09.154Z"}
+{"level":"error","message":"Login failed: Missing required fields","timestamp":"2025-08-08T17:50:34.908Z"}
+{"level":"error","message":"Login failed: Missing required fields","timestamp":"2025-08-08T17:52:58.090Z"}
+{"level":"error","message":"Login failed: Missing required fields","timestamp":"2025-08-08T17:54:21.776Z"}
+{"level":"error","message":"Login failed: Missing required fields","timestamp":"2025-08-08T17:55:07.829Z"}
+{"level":"error","message":"Login failed: Missing required fields","timestamp":"2025-08-08T17:55:21.246Z"}
+{"level":"error","message":"Error fetching user info: Cannot read properties of undefined (reading 'userId')","timestamp":"2025-08-16T11:35:01.704Z"}
+{"level":"error","message":"Error fetching user info: Cannot read properties of undefined (reading 'userId')","timestamp":"2025-08-16T11:35:01.709Z"}
+{"level":"error","message":"Error fetching user info: Cannot read properties of undefined (reading 'userId')","timestamp":"2025-08-16T11:35:14.107Z"}
+{"level":"error","message":"No token provided","timestamp":"2025-08-16T11:44:46.959Z"}
+{"level":"error","message":"No token provided","timestamp":"2025-08-16T11:45:09.595Z"}
+{"level":"error","message":"No token provided","timestamp":"2025-08-16T11:45:27.516Z"}
+{"level":"error","message":"No token provided","timestamp":"2025-08-16T11:56:41.935Z"}
+{"level":"error","message":"No token provided","timestamp":"2025-08-16T12:00:19.243Z"}
+{"level":"error","message":"No token provided","timestamp":"2025-08-16T12:04:01.556Z"}
+{"level":"error","message":"Invalid token: jwt expired","timestamp":"2025-08-16T13:51:18.735Z"}
+{"level":"error","message":"Invalid token: jwt expired","timestamp":"2025-08-16T13:51:18.744Z"}
+{"level":"error","message":"Delete board failed: Board 68962aceb7a5d394c0456d47 not found for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-16T13:54:32.850Z"}
+{"level":"error","message":"Invalid token: jwt expired","timestamp":"2025-08-16T15:59:33.404Z"}
+{"level":"error","message":"No token provided","timestamp":"2025-08-16T16:02:43.747Z"}
+{"level":"error","message":"Login failed: Incorrect password for abc2@gmail.com","timestamp":"2025-08-24T11:23:21.714Z"}
+{"level":"error","message":"Error fetching board: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Board\"","timestamp":"2025-08-24T11:41:59.944Z"}
+{"level":"error","message":"No token provided","timestamp":"2025-08-24T11:54:52.376Z"}
+{"level":"error","message":"Invalid token: invalid token","timestamp":"2025-08-24T11:55:40.082Z"}
+{"level":"error","message":"Invalid token: jwt expired","timestamp":"2025-08-24T13:00:13.469Z"}
+{"level":"error","message":"Invalid token: jwt expired","timestamp":"2025-08-24T13:00:13.482Z"}
+{"level":"error","message":"Error fetching board: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Board\"","timestamp":"2025-08-24T13:09:55.253Z"}
+{"level":"error","message":"Error fetching user info: getaddrinfo ENOTFOUND ac-rymlvnj-shard-00-02.9duqepi.mongodb.net","timestamp":"2025-08-24T13:49:01.857Z"}
+{"level":"error","message":"Invalid token: jwt expired","timestamp":"2025-08-30T15:41:52.970Z"}
+{"level":"error","message":"Invalid token: jwt expired","timestamp":"2025-08-30T15:42:51.214Z"}
+{"level":"error","message":"No token provided","timestamp":"2025-08-30T16:21:24.427Z"}
+{"level":"error","message":"Registration failed: Email john@example.com already exists","timestamp":"2025-08-30T17:36:44.708Z"}
+{"level":"error","message":"Error creating board: tenantId is not defined","timestamp":"2025-08-30T18:36:12.200Z"}
+{"level":"error","message":"Error creating board: tenantId is not defined","timestamp":"2025-08-30T18:55:49.972Z"}
+{"level":"error","message":"Invalid token: jwt expired","timestamp":"2025-08-30T19:38:41.295Z"}
+{"level":"error","message":"Invalid token: jwt expired","timestamp":"2025-08-30T19:38:56.584Z"}
+{"level":"error","message":"Board fetch failed: Board 68b34979e7c3028082b8209e not found for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T21:49:43.395Z"}
+{"level":"error","message":"Invalid token: jwt expired","timestamp":"2025-08-30T21:53:28.679Z"}
+{"level":"error","message":"No token provided","timestamp":"2025-08-30T22:02:20.661Z"}
+{"level":"error","message":"No token provided","timestamp":"2025-08-30T22:02:59.333Z"}
+{"level":"error","message":"Invalid token: jwt expired","timestamp":"2025-08-31T12:08:25.439Z"}
+{"level":"error","message":"Invalid token: jwt expired","timestamp":"2025-08-31T13:20:39.851Z"}
+{"level":"error","message":"Invalid token: jwt expired","timestamp":"2025-08-31T13:20:40.330Z"}

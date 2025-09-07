@@ -1,0 +1,47 @@
+.particles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    overflow: hidden;
+  }
+  
+  .particles::before,
+  .particles::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: rgba(0, 255, 255, 0.5);
+    border-radius: 50%;
+    animation: float 15s infinite;
+  }
+  
+  .particles::before {
+    top: 20%;
+    left: 30%;
+    animation-delay: 0s;
+  }
+  
+  .particles::after {
+    top: 70%;
+    left: 70%;
+    animation-delay: 5s;
+  }
+  
+  @keyframes float {
+    0% { transform: translate(0, 0); }
+    50% { transform: translate(20px, 20px); }
+    100% { transform: translate(0, 0); }
+  }
+
+
+  @media (max-width: 768px) {
+    .min-w-\[300px\] { min-width: 100% !important; }/* Full width on mobile */
+    .flex { flex-direction: column !important; }/* Stack columns */
+    .ml-64 { margin-left: 0 !important; }/* Remove sidebar margin */
+    .p-6 { padding: 1rem !important; }/* Reduced padding */
+  }
+  

@@ -1,0 +1,12 @@
+.task-card {
+    transition: transform 0.2s;
+  }
+  
+  .task-card:hover {
+    transform: scale(1.02);
+  }
+  
+  @media (max-width: 768px) {
+    .task-card { padding: 1rem; }
+    .task-card button { padding: 0.5rem; font-size: 0.875rem; }
+  }

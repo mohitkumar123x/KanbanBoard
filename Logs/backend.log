@@ -1,0 +1,724 @@
+{"level":"info","message":"GET /","timestamp":"2025-08-03T16:32:36.134Z"}
+{"level":"info","message":"GET /.well-known/appspecific/com.chrome.devtools.json","timestamp":"2025-08-03T16:33:15.681Z"}
+{"level":"info","message":"GET /","timestamp":"2025-08-03T16:33:43.950Z"}
+{"level":"info","message":"GET /.well-known/appspecific/com.chrome.devtools.json","timestamp":"2025-08-03T16:33:44.010Z"}
+{"level":"info","message":"User registered: abc@gmail.com, UID: 2a9d096e-04d5-419d-8ce2-1dfc62c588ce","timestamp":"2025-08-03T16:34:19.707Z"}
+{"level":"info","message":"GET /","timestamp":"2025-08-03T16:46:13.639Z"}
+{"level":"info","message":"GET /.well-known/appspecific/com.chrome.devtools.json","timestamp":"2025-08-03T16:46:13.701Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-08-03T16:47:16.866Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-08-03T16:47:30.840Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-08-03T16:47:41.091Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-08-03T16:47:42.482Z"}
+{"level":"info","message":"GET /","timestamp":"2025-08-03T16:49:35.478Z"}
+{"level":"info","message":"GET /.well-known/appspecific/com.chrome.devtools.json","timestamp":"2025-08-03T16:49:35.545Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-08-03T17:33:46.563Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-08-03T17:44:33.172Z"}
+{"level":"info","message":"GET /","timestamp":"2025-08-08T16:45:42.805Z"}
+{"level":"info","message":"GET /","timestamp":"2025-08-08T16:45:52.080Z"}
+{"level":"info","message":"User registered: abc2@gmail.com, UID: dc60cd37-5f3d-47c6-92ea-118a64fc8117","timestamp":"2025-08-08T16:50:22.960Z"}
+{"level":"info","message":"User logged in: abc2@gmail.com, UID: dc60cd37-5f3d-47c6-92ea-118a64fc8117","timestamp":"2025-08-08T17:36:50.296Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2025-08-08T17:37:29.306Z"}
+{"level":"error","message":"Login failed: Missing required fields","timestamp":"2025-08-08T17:48:09.154Z"}
+{"level":"error","message":"Login failed: Missing required fields","timestamp":"2025-08-08T17:50:34.908Z"}
+{"level":"error","message":"Login failed: Missing required fields","timestamp":"2025-08-08T17:52:58.090Z"}
+{"level":"error","message":"Login failed: Missing required fields","timestamp":"2025-08-08T17:54:21.776Z"}
+{"level":"error","message":"Login failed: Missing required fields","timestamp":"2025-08-08T17:55:07.829Z"}
+{"level":"error","message":"Login failed: Missing required fields","timestamp":"2025-08-08T17:55:21.246Z"}
+{"level":"info","message":"User logged in: abc2@gmail.com, UID: dc60cd37-5f3d-47c6-92ea-118a64fc8117","timestamp":"2025-08-08T17:56:30.695Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2025-08-08T17:57:03.802Z"}
+{"level":"info","message":"User registered: abc3@gmail.com, UID: 405dcfcf-04a2-4b57-b04f-d11b61f03a09","timestamp":"2025-08-08T17:59:22.022Z"}
+{"level":"info","message":"GET /favicon.ico","timestamp":"2025-08-08T20:27:50.417Z"}
+{"level":"info","message":"GET /favicon.ico","timestamp":"2025-08-15T17:59:10.214Z"}
+{"level":"info","message":"User logged in: abc2@gmail.com, UID: dc60cd37-5f3d-47c6-92ea-118a64fc8117","timestamp":"2025-08-15T18:06:25.743Z"}
+{"level":"info","message":"User logged in: abc2@gmail.com, UID: dc60cd37-5f3d-47c6-92ea-118a64fc8117","timestamp":"2025-08-15T18:06:25.837Z"}
+{"level":"info","message":"User logged in: abc2@gmail.com, UID: dc60cd37-5f3d-47c6-92ea-118a64fc8117","timestamp":"2025-08-15T18:06:44.580Z"}
+{"level":"info","message":"User logged in: abc2@gmail.com, UID: dc60cd37-5f3d-47c6-92ea-118a64fc8117","timestamp":"2025-08-15T18:09:49.961Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2025-08-15T18:11:36.218Z"}
+{"level":"info","message":"User logged in: abc2@gmail.com, UID: dc60cd37-5f3d-47c6-92ea-118a64fc8117","timestamp":"2025-08-15T18:12:10.880Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2025-08-15T20:21:33.394Z"}
+{"level":"info","message":"GET /api/auth/me","timestamp":"2025-08-15T20:21:33.513Z"}
+{"level":"info","message":"POST /api/boards","timestamp":"2025-08-15T20:27:45.240Z"}
+{"level":"info","message":"GET /favicon.ico","timestamp":"2025-08-16T10:51:59.215Z"}
+{"level":"info","message":"Password comparison for abc2@gmail.com: true","timestamp":"2025-08-16T10:52:10.148Z"}
+{"level":"info","message":"User logged in: abc2@gmail.com, UID: dc60cd37-5f3d-47c6-92ea-118a64fc8117","timestamp":"2025-08-16T10:52:10.316Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-16T10:52:10.690Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-16T10:52:10.711Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-16T10:52:25.358Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-16T10:52:25.370Z"}
+{"level":"info","message":"GET /api/api/auth/me","timestamp":"2025-08-16T10:53:13.395Z"}
+{"level":"info","message":"GET /api/api/auth/me","timestamp":"2025-08-16T10:53:21.688Z"}
+{"level":"info","message":"GET /api/api/boards","timestamp":"2025-08-16T10:53:41.553Z"}
+{"level":"info","message":"POST /api/boards","timestamp":"2025-08-16T10:54:15.350Z"}
+{"level":"info","message":"POST /api/boards","timestamp":"2025-08-16T10:54:57.547Z"}
+{"level":"info","message":"POST /api/api/boards","timestamp":"2025-08-16T11:01:21.509Z"}
+{"level":"info","message":"GET /api/api/auth/me","timestamp":"2025-08-16T11:18:49.429Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-16T11:19:39.968Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-16T11:19:40.059Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-16T11:19:40.071Z"}
+{"level":"info","message":"GET /api/api/auth/me","timestamp":"2025-08-16T11:23:02.257Z"}
+{"level":"info","message":"GET /api/api/auth/me","timestamp":"2025-08-16T11:23:34.668Z"}
+{"level":"info","message":"POST /api/api/auth/login","timestamp":"2025-08-16T11:32:19.679Z"}
+{"level":"error","message":"Error fetching user info: Cannot read properties of undefined (reading 'userId')","timestamp":"2025-08-16T11:35:01.704Z"}
+{"level":"error","message":"Error fetching user info: Cannot read properties of undefined (reading 'userId')","timestamp":"2025-08-16T11:35:01.709Z"}
+{"level":"info","message":"Password comparison for abc2@gmail.com: true","timestamp":"2025-08-16T11:35:13.859Z"}
+{"level":"info","message":"User logged in: abc2@gmail.com, UID: dc60cd37-5f3d-47c6-92ea-118a64fc8117","timestamp":"2025-08-16T11:35:14.042Z"}
+{"level":"error","message":"Error fetching user info: Cannot read properties of undefined (reading 'userId')","timestamp":"2025-08-16T11:35:14.107Z"}
+{"level":"info","message":"POST /api/api/auth/register","timestamp":"2025-08-16T11:36:42.910Z"}
+{"level":"info","message":"POST /api/api/auth/register","timestamp":"2025-08-16T11:41:28.259Z"}
+{"level":"error","message":"No token provided","timestamp":"2025-08-16T11:44:46.959Z"}
+{"level":"error","message":"No token provided","timestamp":"2025-08-16T11:45:09.595Z"}
+{"level":"error","message":"No token provided","timestamp":"2025-08-16T11:45:27.516Z"}
+{"level":"info","message":"POST /api/boards","timestamp":"2025-08-16T11:49:49.114Z"}
+{"level":"info","message":"POST /api/boards","timestamp":"2025-08-16T11:50:25.077Z"}
+{"level":"info","message":"GET /api/api/boards","timestamp":"2025-08-16T11:51:04.860Z"}
+{"level":"error","message":"No token provided","timestamp":"2025-08-16T11:56:41.935Z"}
+{"level":"info","message":"Password comparison for abc2@gmail.com: true","timestamp":"2025-08-16T11:59:30.700Z"}
+{"level":"info","message":"User logged in: abc2@gmail.com, UID: dc60cd37-5f3d-47c6-92ea-118a64fc8117","timestamp":"2025-08-16T11:59:30.909Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-16T12:00:01.107Z"}
+{"level":"error","message":"No token provided","timestamp":"2025-08-16T12:00:19.243Z"}
+{"level":"info","message":"GET /api/api/boards","timestamp":"2025-08-16T12:01:13.829Z"}
+{"level":"info","message":"POST /api/api/boards","timestamp":"2025-08-16T12:01:32.000Z"}
+{"level":"error","message":"No token provided","timestamp":"2025-08-16T12:04:01.556Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-16T12:04:42.465Z"}
+{"level":"info","message":"User registered: john@example.com, UID: 0655a54a-d064-47cc-ac91-3a82c50f4550","timestamp":"2025-08-16T12:08:25.706Z"}
+{"level":"info","message":"GET /api/api/boards","timestamp":"2025-08-16T12:17:57.144Z"}
+{"level":"info","message":"Password comparison for abc2@gmail.com: true","timestamp":"2025-08-16T12:27:57.823Z"}
+{"level":"info","message":"User logged in: abc2@gmail.com, UID: dc60cd37-5f3d-47c6-92ea-118a64fc8117","timestamp":"2025-08-16T12:27:58.002Z"}
+{"level":"info","message":"POST /api/board/createboards","timestamp":"2025-08-16T12:28:26.422Z"}
+{"level":"info","message":"Password comparison for abc2@gmail.com: true","timestamp":"2025-08-16T12:34:35.502Z"}
+{"level":"info","message":"User logged in: abc2@gmail.com, UID: dc60cd37-5f3d-47c6-92ea-118a64fc8117","timestamp":"2025-08-16T12:34:35.624Z"}
+{"level":"info","message":"POST /api/board/createboards","timestamp":"2025-08-16T12:34:58.555Z"}
+{"level":"info","message":"GET /api/board/getboards","timestamp":"2025-08-16T12:45:32.634Z"}
+{"level":"info","message":"GET /api/board/getboards","timestamp":"2025-08-16T12:45:50.621Z"}
+{"level":"info","message":"Password comparison for abc2@gmail.com: true","timestamp":"2025-08-16T13:41:53.257Z"}
+{"level":"info","message":"User logged in: abc2@gmail.com, UID: dc60cd37-5f3d-47c6-92ea-118a64fc8117","timestamp":"2025-08-16T13:41:53.547Z"}
+{"level":"info","message":"POST /api/boards","timestamp":"2025-08-16T13:42:29.284Z"}
+{"level":"info","message":"POST /api/boards","timestamp":"2025-08-16T13:48:17.105Z"}
+{"level":"info","message":"Password comparison for abc2@gmail.com: true","timestamp":"2025-08-16T13:50:22.319Z"}
+{"level":"info","message":"User logged in: abc2@gmail.com, UID: dc60cd37-5f3d-47c6-92ea-118a64fc8117","timestamp":"2025-08-16T13:50:22.563Z"}
+{"level":"info","message":"POST /api/boards","timestamp":"2025-08-16T13:50:53.657Z"}
+{"level":"info","message":"Board created: My New Board for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-16T13:50:53.804Z"}
+{"level":"error","message":"Invalid token: jwt expired","timestamp":"2025-08-16T13:51:18.735Z"}
+{"level":"error","message":"Invalid token: jwt expired","timestamp":"2025-08-16T13:51:18.744Z"}
+{"level":"info","message":"Password comparison for abc2@gmail.com: true","timestamp":"2025-08-16T13:51:26.928Z"}
+{"level":"info","message":"User logged in: abc2@gmail.com, UID: dc60cd37-5f3d-47c6-92ea-118a64fc8117","timestamp":"2025-08-16T13:51:27.032Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-16T13:51:27.191Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-16T13:51:27.212Z"}
+{"level":"info","message":"Fetched boards for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-16T13:51:27.504Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-16T13:51:35.889Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-16T13:51:35.916Z"}
+{"level":"info","message":"Fetched boards for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-16T13:51:36.113Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-16T13:53:31.738Z"}
+{"level":"info","message":"Fetched boards for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-16T13:53:31.916Z"}
+{"level":"info","message":"DELETE /api/boards/68962aceb7a5d394c0456d47","timestamp":"2025-08-16T13:54:32.587Z"}
+{"level":"error","message":"Delete board failed: Board 68962aceb7a5d394c0456d47 not found for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-16T13:54:32.850Z"}
+{"level":"info","message":"DELETE /api/boards/68a08cbdc114ee796181417a","timestamp":"2025-08-16T13:55:07.754Z"}
+{"level":"info","message":"Board deleted: 68a08cbdc114ee796181417a for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-16T13:55:07.964Z"}
+{"level":"info","message":"POST /api/boards","timestamp":"2025-08-16T13:55:27.771Z"}
+{"level":"info","message":"Board created: My New Board1 for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-16T13:55:27.993Z"}
+{"level":"info","message":"POST /api/boards","timestamp":"2025-08-16T14:05:18.935Z"}
+{"level":"info","message":"Board created: b2 for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-16T14:05:19.371Z"}
+{"level":"info","message":"DELETE /api/boards/68a0901ec114ee7961814187","timestamp":"2025-08-16T14:05:39.871Z"}
+{"level":"info","message":"Board deleted: 68a0901ec114ee7961814187 for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-16T14:05:39.959Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-16T14:05:46.676Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-16T14:05:46.781Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-16T14:05:46.790Z"}
+{"level":"info","message":"Fetched boards for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-16T14:05:46.903Z"}
+{"level":"error","message":"Invalid token: jwt expired","timestamp":"2025-08-16T15:59:33.404Z"}
+{"level":"info","message":"Password comparison for abc2@gmail.com: true","timestamp":"2025-08-16T15:59:53.770Z"}
+{"level":"info","message":"User logged in: abc2@gmail.com, UID: dc60cd37-5f3d-47c6-92ea-118a64fc8117","timestamp":"2025-08-16T15:59:54.098Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-16T15:59:54.501Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-16T15:59:54.574Z"}
+{"level":"info","message":"Fetched boards for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-16T15:59:55.196Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-16T16:00:00.676Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-16T16:00:00.713Z"}
+{"level":"info","message":"Fetched boards for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-16T16:00:01.170Z"}
+{"level":"info","message":"GET /api/boards/undefined","timestamp":"2025-08-16T16:00:35.719Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-16T16:00:37.585Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-16T16:02:43.745Z"}
+{"level":"error","message":"No token provided","timestamp":"2025-08-16T16:02:43.747Z"}
+{"level":"info","message":"Password comparison for abc2@gmail.com: true","timestamp":"2025-08-16T16:03:04.694Z"}
+{"level":"info","message":"User logged in: abc2@gmail.com, UID: dc60cd37-5f3d-47c6-92ea-118a64fc8117","timestamp":"2025-08-16T16:03:04.908Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-16T16:03:23.269Z"}
+{"level":"info","message":"Fetched boards for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-16T16:03:23.662Z"}
+{"level":"info","message":"GET /api/boards/68a08dcfc114ee7961814185","timestamp":"2025-08-16T16:04:28.233Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-16T16:04:28.811Z"}
+{"level":"info","message":"GET /api/api/boards/68a08dcfc114ee7961814185","timestamp":"2025-08-16T16:04:49.349Z"}
+{"level":"info","message":"GET /api/api/boards","timestamp":"2025-08-16T16:06:14.161Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-16T16:06:14.336Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-16T16:07:27.834Z"}
+{"level":"info","message":"GET /api/api/boards","timestamp":"2025-08-16T16:07:53.185Z"}
+{"level":"info","message":"GET /api/api/boards","timestamp":"2025-08-16T16:09:15.730Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-16T16:09:16.239Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-16T16:10:06.123Z"}
+{"level":"info","message":"Fetched boards for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-16T16:10:06.703Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-16T16:10:12.394Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-16T16:10:12.980Z"}
+{"level":"info","message":"Fetched boards for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-16T16:10:17.045Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-16T16:36:53.737Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-16T16:38:18.346Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-16T16:50:27.194Z"}
+{"level":"info","message":"PUT /api/boards/undefined/tasks/3","timestamp":"2025-08-16T16:51:42.053Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-16T16:51:49.832Z"}
+{"level":"info","message":"PUT /api/boards/undefined/tasks/1","timestamp":"2025-08-16T16:51:55.077Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-16T16:51:58.922Z"}
+{"level":"info","message":"Password comparison for abc2@gmail.com: true","timestamp":"2025-08-24T11:08:31.283Z"}
+{"level":"info","message":"User logged in: abc2@gmail.com, UID: dc60cd37-5f3d-47c6-92ea-118a64fc8117","timestamp":"2025-08-24T11:08:31.683Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T11:08:31.911Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-24T11:08:31.936Z"}
+{"level":"info","message":"Fetched boards for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T11:08:32.000Z"}
+{"level":"info","message":"GET /api/analytics?filter=last7days","timestamp":"2025-08-24T11:08:34.511Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T11:08:48.469Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-24T11:08:48.477Z"}
+{"level":"info","message":"Fetched boards for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T11:08:48.509Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T11:08:57.037Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-24T11:08:57.045Z"}
+{"level":"info","message":"Fetched boards for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T11:08:57.077Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T11:09:04.000Z"}
+{"level":"info","message":"GET /api/boards/undefined","timestamp":"2025-08-24T11:09:04.020Z"}
+{"level":"info","message":"GET /api/boards/undefined","timestamp":"2025-08-24T11:11:00.261Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T11:11:00.290Z"}
+{"level":"info","message":"GET /api/boards/undefined","timestamp":"2025-08-24T11:11:07.479Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T11:11:07.483Z"}
+{"level":"info","message":"GET /api/boards/undefined","timestamp":"2025-08-24T11:17:30.495Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T11:17:30.520Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-24T11:23:11.386Z"}
+{"level":"info","message":"Fetched boards for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T11:23:11.424Z"}
+{"level":"info","message":"Password comparison for abc2@gmail.com: false","timestamp":"2025-08-24T11:23:21.713Z"}
+{"level":"error","message":"Login failed: Incorrect password for abc2@gmail.com","timestamp":"2025-08-24T11:23:21.714Z"}
+{"level":"info","message":"Password comparison for abc2@gmail.com: true","timestamp":"2025-08-24T11:23:28.376Z"}
+{"level":"info","message":"User logged in: abc2@gmail.com, UID: dc60cd37-5f3d-47c6-92ea-118a64fc8117","timestamp":"2025-08-24T11:23:28.428Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T11:23:28.527Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-24T11:23:28.563Z"}
+{"level":"info","message":"Fetched boards for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T11:23:28.596Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T11:23:32.616Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-24T11:23:32.623Z"}
+{"level":"info","message":"Fetched boards for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T11:23:32.654Z"}
+{"level":"info","message":"GET /favicon.ico","timestamp":"2025-08-24T11:23:41.907Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T11:39:57.208Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T11:39:57.275Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-24T11:39:57.674Z"}
+{"level":"info","message":"Fetched boards for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T11:39:57.870Z"}
+{"level":"info","message":"GET /api/analytics?filter=last7days","timestamp":"2025-08-24T11:40:01.486Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T11:40:04.446Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-24T11:40:04.456Z"}
+{"level":"info","message":"Fetched boards for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T11:40:04.489Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T11:40:10.917Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T11:40:30.192Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T11:41:37.733Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T11:41:59.909Z"}
+{"level":"info","message":"GET /api/boards/undefined","timestamp":"2025-08-24T11:41:59.933Z"}
+{"level":"error","message":"Error fetching board: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Board\"","timestamp":"2025-08-24T11:41:59.944Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-24T11:54:52.242Z"}
+{"level":"error","message":"No token provided","timestamp":"2025-08-24T11:54:52.376Z"}
+{"level":"info","message":"Password comparison for abc2@gmail.com: true","timestamp":"2025-08-24T11:55:18.576Z"}
+{"level":"info","message":"User logged in: abc2@gmail.com, UID: dc60cd37-5f3d-47c6-92ea-118a64fc8117","timestamp":"2025-08-24T11:55:18.835Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-24T11:55:40.081Z"}
+{"level":"error","message":"Invalid token: invalid token","timestamp":"2025-08-24T11:55:40.082Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-24T11:56:08.375Z"}
+{"level":"info","message":"Fetched boards for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T11:56:08.488Z"}
+{"level":"info","message":"GET /api/boards/68a08dcfc114ee7961814185","timestamp":"2025-08-24T11:56:30.503Z"}
+{"level":"info","message":"Fetched board 68a08dcfc114ee7961814185 for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T11:56:30.601Z"}
+{"level":"error","message":"Invalid token: jwt expired","timestamp":"2025-08-24T13:00:13.469Z"}
+{"level":"info","message":"GET /api/boards/undefined","timestamp":"2025-08-24T13:00:13.479Z"}
+{"level":"error","message":"Invalid token: jwt expired","timestamp":"2025-08-24T13:00:13.482Z"}
+{"level":"info","message":"Password comparison for abc2@gmail.com: true","timestamp":"2025-08-24T13:01:35.530Z"}
+{"level":"info","message":"User logged in: abc2@gmail.com, UID: dc60cd37-5f3d-47c6-92ea-118a64fc8117","timestamp":"2025-08-24T13:01:35.573Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T13:01:35.686Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-24T13:01:35.708Z"}
+{"level":"info","message":"Fetched boards for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T13:01:35.792Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T13:04:14.709Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-24T13:04:14.719Z"}
+{"level":"info","message":"Fetched boards for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T13:04:14.748Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T13:05:21.557Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-24T13:05:21.566Z"}
+{"level":"info","message":"Fetched boards for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T13:05:21.596Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T13:05:25.948Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T13:05:25.983Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-24T13:05:26.257Z"}
+{"level":"info","message":"Fetched boards for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T13:05:26.290Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T13:09:53.182Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-24T13:09:53.679Z"}
+{"level":"info","message":"Fetched boards for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T13:09:53.709Z"}
+{"level":"info","message":"GET /api/boards/undefined","timestamp":"2025-08-24T13:09:55.129Z"}
+{"level":"error","message":"Error fetching board: Cast to ObjectId failed for value \"undefined\" (type string) at path \"_id\" for model \"Board\"","timestamp":"2025-08-24T13:09:55.253Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T13:17:04.066Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-24T13:17:04.082Z"}
+{"level":"info","message":"Fetched boards for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T13:17:04.119Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T13:17:09.570Z"}
+{"level":"info","message":"GET /api/boards/68a08dcfc114ee7961814185","timestamp":"2025-08-24T13:17:09.602Z"}
+{"level":"info","message":"Fetched board 68a08dcfc114ee7961814185 for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T13:17:09.665Z"}
+{"level":"info","message":"GET /api/boards/68a08dcfc114ee7961814185","timestamp":"2025-08-24T13:18:35.185Z"}
+{"level":"info","message":"Fetched board 68a08dcfc114ee7961814185 for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T13:18:35.215Z"}
+{"level":"info","message":"GET /api/boards/68a08dcfc114ee7961814185","timestamp":"2025-08-24T13:18:39.175Z"}
+{"level":"info","message":"Fetched board 68a08dcfc114ee7961814185 for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T13:18:39.235Z"}
+{"level":"info","message":"GET /api/boards/68a08dcfc114ee7961814185","timestamp":"2025-08-24T13:18:54.193Z"}
+{"level":"info","message":"Fetched board 68a08dcfc114ee7961814185 for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T13:18:54.258Z"}
+{"level":"info","message":"GET /api/boards/68a08dcfc114ee7961814185","timestamp":"2025-08-24T13:19:01.204Z"}
+{"level":"info","message":"Fetched board 68a08dcfc114ee7961814185 for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T13:19:01.269Z"}
+{"level":"info","message":"GET /api/boards/68a08dcfc114ee7961814185","timestamp":"2025-08-24T13:19:09.184Z"}
+{"level":"info","message":"Fetched board 68a08dcfc114ee7961814185 for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T13:19:09.269Z"}
+{"level":"info","message":"GET /api/boards/68a08dcfc114ee7961814185","timestamp":"2025-08-24T13:19:16.208Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T13:19:16.403Z"}
+{"level":"info","message":"Fetched board 68a08dcfc114ee7961814185 for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T13:19:16.454Z"}
+{"level":"info","message":"GET /api/boards/68a08dcfc114ee7961814185","timestamp":"2025-08-24T13:19:34.179Z"}
+{"level":"info","message":"Fetched board 68a08dcfc114ee7961814185 for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T13:19:34.235Z"}
+{"level":"info","message":"GET /api/boards/68a08dcfc114ee7961814185","timestamp":"2025-08-24T13:27:50.145Z"}
+{"level":"info","message":"Fetched board 68a08dcfc114ee7961814185 for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T13:27:50.204Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T13:27:50.216Z"}
+{"level":"info","message":"GET /api/boards/68a08dcfc114ee7961814185","timestamp":"2025-08-24T13:28:56.786Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T13:28:56.807Z"}
+{"level":"info","message":"Fetched board 68a08dcfc114ee7961814185 for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T13:28:56.829Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T13:29:21.410Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-24T13:29:21.482Z"}
+{"level":"info","message":"Fetched boards for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T13:29:21.619Z"}
+{"level":"info","message":"GET /api/boards/68a08dcfc114ee7961814185","timestamp":"2025-08-24T13:29:23.144Z"}
+{"level":"info","message":"Fetched board 68a08dcfc114ee7961814185 for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T13:29:23.180Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T13:30:43.340Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-24T13:30:43.349Z"}
+{"level":"info","message":"Fetched boards for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T13:30:43.380Z"}
+{"level":"info","message":"GET /api/boards/68a08dcfc114ee7961814185","timestamp":"2025-08-24T13:30:45.111Z"}
+{"level":"info","message":"Fetched board 68a08dcfc114ee7961814185 for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T13:30:45.144Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T13:30:47.721Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-24T13:30:47.727Z"}
+{"level":"info","message":"Fetched boards for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T13:30:47.758Z"}
+{"level":"info","message":"GET /api/analytics?filter=last7days","timestamp":"2025-08-24T13:30:49.207Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T13:30:54.893Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-24T13:30:54.899Z"}
+{"level":"info","message":"Fetched boards for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T13:30:54.957Z"}
+{"level":"info","message":"GET /api/boards/68a08dcfc114ee7961814185","timestamp":"2025-08-24T13:31:43.967Z"}
+{"level":"info","message":"Fetched board 68a08dcfc114ee7961814185 for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-24T13:31:44.000Z"}
+{"level":"info","message":"POST /api/boards/68a08dcfc114ee7961814185/tasks","timestamp":"2025-08-24T13:48:29.050Z"}
+{"level":"info","message":"POST /api/boards/68a08dcfc114ee7961814185/tasks","timestamp":"2025-08-24T13:48:29.168Z"}
+{"level":"error","message":"Error fetching user info: getaddrinfo ENOTFOUND ac-rymlvnj-shard-00-02.9duqepi.mongodb.net","timestamp":"2025-08-24T13:49:01.857Z"}
+{"level":"info","message":"Password comparison for abc2@gmail.com: true","timestamp":"2025-08-30T10:14:47.372Z"}
+{"level":"info","message":"User logged in: abc2@gmail.com, UID: dc60cd37-5f3d-47c6-92ea-118a64fc8117","timestamp":"2025-08-30T10:14:48.003Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-30T10:14:48.448Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-30T10:14:48.533Z"}
+{"level":"info","message":"Fetched boards for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-30T10:14:48.659Z"}
+{"level":"info","message":"GET /api/boards/68a08dcfc114ee7961814185","timestamp":"2025-08-30T10:14:52.865Z"}
+{"level":"info","message":"Fetched board 68a08dcfc114ee7961814185 for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-30T10:14:52.931Z"}
+{"level":"info","message":"GET /api/boards/68a08dcfc114ee7961814185","timestamp":"2025-08-30T10:16:15.019Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-30T10:16:15.060Z"}
+{"level":"info","message":"Fetched board 68a08dcfc114ee7961814185 for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-30T10:16:15.062Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-30T10:16:30.110Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-30T10:16:30.176Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-30T10:16:30.183Z"}
+{"level":"info","message":"Fetched boards for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-30T10:16:30.252Z"}
+{"level":"info","message":"GET /api/boards/68a08dcfc114ee7961814185","timestamp":"2025-08-30T10:16:31.776Z"}
+{"level":"info","message":"Fetched board 68a08dcfc114ee7961814185 for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-30T10:16:31.817Z"}
+{"level":"error","message":"Invalid token: jwt expired","timestamp":"2025-08-30T15:41:52.970Z"}
+{"level":"error","message":"Invalid token: jwt expired","timestamp":"2025-08-30T15:42:51.214Z"}
+{"level":"info","message":"Password comparison for abc2@gmail.com: true","timestamp":"2025-08-30T15:43:59.556Z"}
+{"level":"info","message":"User logged in: abc2@gmail.com, UID: dc60cd37-5f3d-47c6-92ea-118a64fc8117","timestamp":"2025-08-30T15:43:59.612Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-30T15:43:59.724Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-30T15:43:59.760Z"}
+{"level":"info","message":"Fetched boards for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-30T15:43:59.801Z"}
+{"level":"info","message":"GET /api/analytics?filter=last7days","timestamp":"2025-08-30T15:44:02.784Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-30T15:44:04.518Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-30T15:44:04.527Z"}
+{"level":"info","message":"Fetched boards for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-30T15:44:04.563Z"}
+{"level":"info","message":"GET /api/boards/68a08dcfc114ee7961814185","timestamp":"2025-08-30T15:44:07.784Z"}
+{"level":"info","message":"Fetched board 68a08dcfc114ee7961814185 for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-30T15:44:07.824Z"}
+{"level":"info","message":"GET /api/boards/68a08dcfc114ee7961814185","timestamp":"2025-08-30T15:44:37.309Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-30T15:44:37.335Z"}
+{"level":"info","message":"Fetched board 68a08dcfc114ee7961814185 for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-30T15:44:37.346Z"}
+{"level":"info","message":"POST /api/boards/68a08dcfc114ee7961814185/tasks","timestamp":"2025-08-30T15:44:59.788Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-30T15:52:53.719Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-30T15:52:53.963Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-30T15:52:53.985Z"}
+{"level":"info","message":"Fetched boards for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-30T15:52:54.149Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-30T15:52:54.159Z"}
+{"level":"info","message":"Fetched boards for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-30T15:52:54.201Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-30T15:52:56.191Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-30T15:52:56.199Z"}
+{"level":"info","message":"Fetched boards for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-30T15:52:56.231Z"}
+{"level":"info","message":"GET /api/boards/68a08dcfc114ee7961814185","timestamp":"2025-08-30T15:52:58.826Z"}
+{"level":"info","message":"Fetched board 68a08dcfc114ee7961814185 for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-30T15:52:58.862Z"}
+{"level":"info","message":"POST /api/boards/68a08dcfc114ee7961814185/tasks","timestamp":"2025-08-30T15:53:01.874Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-30T15:53:04.056Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-30T15:53:04.066Z"}
+{"level":"info","message":"Fetched boards for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-30T15:53:04.101Z"}
+{"level":"info","message":"GET /api/boards/68a08dcfc114ee7961814185","timestamp":"2025-08-30T15:53:10.120Z"}
+{"level":"info","message":"Fetched board 68a08dcfc114ee7961814185 for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-30T15:53:10.174Z"}
+{"level":"info","message":"GET /api/boards/68a08dcfc114ee7961814185","timestamp":"2025-08-30T15:58:26.137Z"}
+{"level":"info","message":"Fetched user info for 68962aceb7a5d394c0456d47","timestamp":"2025-08-30T15:58:26.164Z"}
+{"level":"info","message":"Fetched board 68a08dcfc114ee7961814185 for user 68962aceb7a5d394c0456d47","timestamp":"2025-08-30T15:58:26.192Z"}
+{"level":"info","message":"POST /api/boards/68a08dcfc114ee7961814185/tasks","timestamp":"2025-08-30T15:58:41.513Z"}
+{"level":"info","message":"POST /api/api/boards/68a08dcfc114ee7961814185/tasks","timestamp":"2025-08-30T15:59:24.665Z"}
+{"level":"info","message":"POST /api/boards/68a08dcfc114ee7961814185/tasks","timestamp":"2025-08-30T16:02:41.949Z"}
+{"level":"info","message":"POST /api/boards/68a08dcfc114ee7961814185/tasks","timestamp":"2025-08-30T16:05:34.904Z"}
+{"level":"info","message":"GET /.well-known/appspecific/com.chrome.devtools.json","timestamp":"2025-08-30T16:07:32.123Z"}
+{"level":"info","message":"GET /.well-known/appspecific/com.chrome.devtools.json","timestamp":"2025-08-30T16:20:06.739Z"}
+{"level":"info","message":"User registered: abcc@gmail.com, UID: 6406d06f-d88f-4704-86de-58b97e687452","timestamp":"2025-08-30T16:21:02.156Z"}
+{"level":"error","message":"No token provided","timestamp":"2025-08-30T16:21:24.427Z"}
+{"level":"error","message":"Registration failed: Email john@example.com already exists","timestamp":"2025-08-30T17:36:44.708Z"}
+{"level":"info","message":"User registered: john3@example.com, UID: 0d0ae2a4-b267-4149-b269-69c6b101b71d, Tenant ID: f6812eb4-dc98-4e9b-9a82-bca6fbaa66f8","timestamp":"2025-08-30T17:36:55.015Z"}
+{"level":"info","message":"Password comparison for john3@example.com: true","timestamp":"2025-08-30T17:39:35.629Z"}
+{"level":"info","message":"User logged in: john3@example.com, UID: 0d0ae2a4-b267-4149-b269-69c6b101b71d, Tenant ID: f6812eb4-dc98-4e9b-9a82-bca6fbaa66f8","timestamp":"2025-08-30T17:39:35.844Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T17:40:01.102Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-30T18:33:32.607Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T18:33:33.011Z"}
+{"level":"info","message":"Password comparison for john3@example.com: true","timestamp":"2025-08-30T18:35:54.482Z"}
+{"level":"info","message":"User logged in: john3@example.com, UID: 0d0ae2a4-b267-4149-b269-69c6b101b71d, Tenant ID: f6812eb4-dc98-4e9b-9a82-bca6fbaa66f8","timestamp":"2025-08-30T18:35:54.533Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T18:35:54.804Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-30T18:35:54.821Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T18:35:54.899Z"}
+{"level":"info","message":"POST /api/boards","timestamp":"2025-08-30T18:36:12.175Z"}
+{"level":"error","message":"Error creating board: tenantId is not defined","timestamp":"2025-08-30T18:36:12.200Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T18:53:51.693Z"}
+{"level":"info","message":"POST /api/boards","timestamp":"2025-08-30T18:55:49.873Z"}
+{"level":"error","message":"Error creating board: tenantId is not defined","timestamp":"2025-08-30T18:55:49.972Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T18:55:49.983Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-30T18:55:50.235Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T18:55:50.290Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T18:56:47.567Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T18:56:47.655Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-30T18:56:47.708Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T18:56:47.758Z"}
+{"level":"info","message":"POST /api/boards","timestamp":"2025-08-30T18:56:57.631Z"}
+{"level":"info","message":"Board created: b5 for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T18:56:57.844Z"}
+{"level":"info","message":"GET /api/boards/68b34979e7c3028082b8209e","timestamp":"2025-08-30T18:57:04.049Z"}
+{"level":"info","message":"Fetched board 68b34979e7c3028082b8209e for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T18:57:04.089Z"}
+{"level":"info","message":"POST /api/boards/68b34979e7c3028082b8209e/tasks","timestamp":"2025-08-30T18:57:18.639Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T18:57:20.524Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-30T18:57:20.535Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T18:57:20.566Z"}
+{"level":"info","message":"POST /api/boards","timestamp":"2025-08-30T18:57:56.550Z"}
+{"level":"info","message":"Board created: b6 for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T18:57:56.583Z"}
+{"level":"info","message":"GET /api/boards/68b34979e7c3028082b8209e","timestamp":"2025-08-30T18:58:00.212Z"}
+{"level":"info","message":"Fetched board 68b34979e7c3028082b8209e for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T18:58:00.305Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T18:58:03.587Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-30T18:58:03.594Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T18:58:03.622Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3","timestamp":"2025-08-30T18:58:04.994Z"}
+{"level":"info","message":"Fetched board 68b349b4e7c3028082b820a3 for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T18:58:05.029Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T18:58:06.935Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-30T18:58:06.941Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T18:58:06.969Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3","timestamp":"2025-08-30T18:58:09.122Z"}
+{"level":"info","message":"Fetched board 68b349b4e7c3028082b820a3 for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T18:58:09.152Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T18:58:14.303Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-30T18:58:14.311Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T18:58:14.339Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3","timestamp":"2025-08-30T18:58:17.947Z"}
+{"level":"info","message":"Fetched board 68b349b4e7c3028082b820a3 for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T18:58:17.979Z"}
+{"level":"info","message":"POST /api/boards/68b349b4e7c3028082b820a3/tasks","timestamp":"2025-08-30T18:58:41.089Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T18:58:42.630Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-30T18:58:42.661Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T18:58:42.700Z"}
+{"level":"info","message":"GET /api/analytics?filter=last7days","timestamp":"2025-08-30T18:58:45.878Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T18:58:47.910Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-30T18:58:47.925Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T18:58:47.962Z"}
+{"level":"info","message":"GET /api/boards/68b34979e7c3028082b8209e","timestamp":"2025-08-30T19:38:41.290Z"}
+{"level":"error","message":"Invalid token: jwt expired","timestamp":"2025-08-30T19:38:41.295Z"}
+{"level":"error","message":"Invalid token: jwt expired","timestamp":"2025-08-30T19:38:56.584Z"}
+{"level":"info","message":"Password comparison for john3@example.com: true","timestamp":"2025-08-30T19:39:26.051Z"}
+{"level":"info","message":"Password comparison for john3@example.com: true","timestamp":"2025-08-30T19:39:26.058Z"}
+{"level":"info","message":"User logged in: john3@example.com, UID: 0d0ae2a4-b267-4149-b269-69c6b101b71d, Tenant ID: f6812eb4-dc98-4e9b-9a82-bca6fbaa66f8","timestamp":"2025-08-30T19:39:26.119Z"}
+{"level":"info","message":"User logged in: john3@example.com, UID: 0d0ae2a4-b267-4149-b269-69c6b101b71d, Tenant ID: f6812eb4-dc98-4e9b-9a82-bca6fbaa66f8","timestamp":"2025-08-30T19:39:26.244Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T19:39:26.471Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-30T19:39:26.487Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T19:39:26.522Z"}
+{"level":"info","message":"GET /api/boards/68b34979e7c3028082b8209e","timestamp":"2025-08-30T19:39:39.784Z"}
+{"level":"info","message":"Fetched board 68b34979e7c3028082b8209e for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T19:39:39.815Z"}
+{"level":"info","message":"POST /api/boards/68b34979e7c3028082b8209e/tasks","timestamp":"2025-08-30T19:39:49.076Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T19:40:07.339Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-30T19:40:07.348Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T19:40:07.378Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3","timestamp":"2025-08-30T19:40:09.558Z"}
+{"level":"info","message":"Fetched board 68b349b4e7c3028082b820a3 for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T19:40:09.593Z"}
+{"level":"info","message":"POST /api/boards/68b349b4e7c3028082b820a3/tasks","timestamp":"2025-08-30T19:41:35.973Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T19:43:31.504Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-30T19:43:31.514Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T19:43:31.547Z"}
+{"level":"info","message":"GET /api/boards/68b34979e7c3028082b8209e","timestamp":"2025-08-30T19:45:21.931Z"}
+{"level":"info","message":"Fetched board 68b34979e7c3028082b8209e for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T19:45:21.963Z"}
+{"level":"info","message":"Password comparison for john3@example.com: true","timestamp":"2025-08-30T20:10:38.391Z"}
+{"level":"info","message":"User logged in: john3@example.com, UID: 0d0ae2a4-b267-4149-b269-69c6b101b71d, Tenant ID: f6812eb4-dc98-4e9b-9a82-bca6fbaa66f8","timestamp":"2025-08-30T20:10:38.463Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T20:10:38.541Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-30T20:10:38.552Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T20:10:38.731Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3","timestamp":"2025-08-30T20:10:54.470Z"}
+{"level":"info","message":"Fetched board 68b349b4e7c3028082b820a3 for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T20:10:54.515Z"}
+{"level":"info","message":"POST /api/boards/68b349b4e7c3028082b820a3/tasks","timestamp":"2025-08-30T20:11:04.646Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T20:16:07.817Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-30T20:16:07.832Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T20:16:07.872Z"}
+{"level":"info","message":"GET /api/boards/68b34979e7c3028082b8209e","timestamp":"2025-08-30T20:16:10.132Z"}
+{"level":"info","message":"Fetched board 68b34979e7c3028082b8209e for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T20:16:10.183Z"}
+{"level":"info","message":"POST /api/boards/68b34979e7c3028082b8209e/tasks","timestamp":"2025-08-30T20:16:12.308Z"}
+{"level":"info","message":"GET /api/boards/68b34979e7c3028082b8209e","timestamp":"2025-08-30T20:16:38.083Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T20:16:38.106Z"}
+{"level":"info","message":"Fetched board 68b34979e7c3028082b8209e for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T20:16:38.121Z"}
+{"level":"info","message":"POST /api/boards/68b34979e7c3028082b8209e/tasks","timestamp":"2025-08-30T20:17:02.243Z"}
+{"level":"info","message":"GET /api/boards/68b34979e7c3028082b8209e","timestamp":"2025-08-30T20:18:49.273Z"}
+{"level":"info","message":"Fetched board 68b34979e7c3028082b8209e for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T20:18:49.327Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T20:18:59.869Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-30T20:18:59.878Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T20:18:59.921Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T20:24:00.644Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-30T20:24:00.670Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T20:24:00.697Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T20:24:00.720Z"}
+{"level":"info","message":"GET /api/boards/68b34979e7c3028082b8209e","timestamp":"2025-08-30T20:24:02.402Z"}
+{"level":"info","message":"Fetched board 68b34979e7c3028082b8209e for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T20:24:02.442Z"}
+{"level":"info","message":"POST /api/boards/68b34979e7c3028082b8209e/tasks","timestamp":"2025-08-30T20:24:10.408Z"}
+{"level":"info","message":"Password comparison for john3@example.com: true","timestamp":"2025-08-30T20:27:49.943Z"}
+{"level":"info","message":"User logged in: john3@example.com, UID: 0d0ae2a4-b267-4149-b269-69c6b101b71d, Tenant ID: f6812eb4-dc98-4e9b-9a82-bca6fbaa66f8","timestamp":"2025-08-30T20:27:50.010Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T20:27:50.260Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-30T20:27:50.359Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T20:27:50.514Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3","timestamp":"2025-08-30T20:27:51.824Z"}
+{"level":"info","message":"Fetched board 68b349b4e7c3028082b820a3 for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T20:27:51.861Z"}
+{"level":"info","message":"POST /api/boards/68b349b4e7c3028082b820a3/tasks","timestamp":"2025-08-30T20:28:46.768Z"}
+{"level":"info","message":"POST /api/boards/68b349b4e7c3028082b820a3/tasks","timestamp":"2025-08-30T20:31:35.173Z"}
+{"level":"info","message":"GET /.well-known/appspecific/com.chrome.devtools.json","timestamp":"2025-08-30T21:22:20.388Z"}
+{"level":"info","message":"Password comparison for john3@example.com: true","timestamp":"2025-08-30T21:24:53.144Z"}
+{"level":"info","message":"User logged in: john3@example.com, UID: 0d0ae2a4-b267-4149-b269-69c6b101b71d, Tenant ID: f6812eb4-dc98-4e9b-9a82-bca6fbaa66f8","timestamp":"2025-08-30T21:24:53.205Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-30T21:25:38.458Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T21:25:38.516Z"}
+{"level":"info","message":"POST /api/boards/68b34979e7c3028082b8209e/tasks","timestamp":"2025-08-30T21:26:26.649Z"}
+{"level":"info","message":"GET /.well-known/appspecific/com.chrome.devtools.json","timestamp":"2025-08-30T21:32:17.625Z"}
+{"level":"info","message":"GET /api/boards/68b34979e7c3028082b8209e/tasks","timestamp":"2025-08-30T21:32:21.574Z"}
+{"level":"info","message":"POST /api/boards/68b34979e7c3028082b8209e/tasks","timestamp":"2025-08-30T21:36:36.801Z"}
+{"level":"info","message":"POST /api/boards/68b34979e7c3028082b8209e/tasks","timestamp":"2025-08-30T21:48:19.993Z"}
+{"level":"info","message":"Task created for board 68b34979e7c3028082b8209e, tenant f6812eb4-dc98-4e9b-9a82-bca6fbaa66f8","timestamp":"2025-08-30T21:48:20.083Z"}
+{"level":"info","message":"GET /api/boards/68b34979e7c3028082b8209e/tasks","timestamp":"2025-08-30T21:48:51.693Z"}
+{"level":"info","message":"Fetched tasks for board 68b34979e7c3028082b8209e, tenant f6812eb4-dc98-4e9b-9a82-bca6fbaa66f8","timestamp":"2025-08-30T21:48:51.737Z"}
+{"level":"info","message":"DELETE /api/boards/68b34979e7c3028082b8209e","timestamp":"2025-08-30T21:49:19.554Z"}
+{"level":"info","message":"Board deleted: 68b34979e7c3028082b8209e for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T21:49:19.594Z"}
+{"level":"info","message":"GET /api/boards/68b34979e7c3028082b8209e","timestamp":"2025-08-30T21:49:42.990Z"}
+{"level":"error","message":"Board fetch failed: Board 68b34979e7c3028082b8209e not found for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T21:49:43.395Z"}
+{"level":"error","message":"Invalid token: jwt expired","timestamp":"2025-08-30T21:53:28.679Z"}
+{"level":"info","message":"Password comparison for john3@example.com: true","timestamp":"2025-08-30T21:56:46.675Z"}
+{"level":"info","message":"User logged in: john3@example.com, UID: 0d0ae2a4-b267-4149-b269-69c6b101b71d, Tenant ID: f6812eb4-dc98-4e9b-9a82-bca6fbaa66f8","timestamp":"2025-08-30T21:56:46.738Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T21:56:46.936Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-30T21:56:46.942Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T21:56:46.977Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3","timestamp":"2025-08-30T21:56:50.008Z"}
+{"level":"info","message":"Fetched board 68b349b4e7c3028082b820a3 for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T21:56:50.048Z"}
+{"level":"info","message":"POST /api/boards/68b349b4e7c3028082b820a3/tasks","timestamp":"2025-08-30T21:56:56.645Z"}
+{"level":"info","message":"Task created for board 68b349b4e7c3028082b820a3, tenant f6812eb4-dc98-4e9b-9a82-bca6fbaa66f8","timestamp":"2025-08-30T21:56:56.681Z"}
+{"level":"info","message":"GET /api/boards/68b34979e7c3028082b8209e/tasks","timestamp":"2025-08-30T22:01:17.517Z"}
+{"level":"info","message":"Fetched tasks for board 68b34979e7c3028082b8209e, tenant f6812eb4-dc98-4e9b-9a82-bca6fbaa66f8","timestamp":"2025-08-30T22:01:17.550Z"}
+{"level":"info","message":"POST /api/boards/68b349b4e7c3028082b820a3/tasks","timestamp":"2025-08-30T22:01:51.846Z"}
+{"level":"info","message":"Task created for board 68b349b4e7c3028082b820a3, tenant f6812eb4-dc98-4e9b-9a82-bca6fbaa66f8","timestamp":"2025-08-30T22:01:51.891Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3/tasks","timestamp":"2025-08-30T22:02:20.660Z"}
+{"level":"error","message":"No token provided","timestamp":"2025-08-30T22:02:20.661Z"}
+{"level":"info","message":"Password comparison for john3@example.com: true","timestamp":"2025-08-30T22:02:48.669Z"}
+{"level":"info","message":"User logged in: john3@example.com, UID: 0d0ae2a4-b267-4149-b269-69c6b101b71d, Tenant ID: f6812eb4-dc98-4e9b-9a82-bca6fbaa66f8","timestamp":"2025-08-30T22:02:48.707Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3/tasks","timestamp":"2025-08-30T22:02:59.332Z"}
+{"level":"error","message":"No token provided","timestamp":"2025-08-30T22:02:59.333Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3/tasks","timestamp":"2025-08-30T22:03:37.377Z"}
+{"level":"info","message":"Fetched tasks for board 68b349b4e7c3028082b820a3, tenant f6812eb4-dc98-4e9b-9a82-bca6fbaa66f8","timestamp":"2025-08-30T22:03:37.409Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3","timestamp":"2025-08-30T22:03:51.912Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:03:51.932Z"}
+{"level":"info","message":"Fetched board 68b349b4e7c3028082b820a3 for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:03:51.948Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3","timestamp":"2025-08-30T22:08:31.290Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:08:31.314Z"}
+{"level":"info","message":"Fetched board 68b349b4e7c3028082b820a3 for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:08:31.323Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3","timestamp":"2025-08-30T22:08:36.271Z"}
+{"level":"info","message":"Fetched board 68b349b4e7c3028082b820a3 for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:08:36.315Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:08:36.318Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3","timestamp":"2025-08-30T22:08:40.278Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:08:40.315Z"}
+{"level":"info","message":"Fetched board 68b349b4e7c3028082b820a3 for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:08:40.319Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3","timestamp":"2025-08-30T22:08:41.317Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:08:41.349Z"}
+{"level":"info","message":"Fetched board 68b349b4e7c3028082b820a3 for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:08:41.351Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3","timestamp":"2025-08-30T22:08:43.430Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:08:43.448Z"}
+{"level":"info","message":"Fetched board 68b349b4e7c3028082b820a3 for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:08:43.461Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3","timestamp":"2025-08-30T22:08:44.294Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:08:44.323Z"}
+{"level":"info","message":"Fetched board 68b349b4e7c3028082b820a3 for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:08:44.328Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3","timestamp":"2025-08-30T22:08:46.315Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:08:46.339Z"}
+{"level":"info","message":"Fetched board 68b349b4e7c3028082b820a3 for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:08:46.346Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3","timestamp":"2025-08-30T22:08:49.329Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:08:49.352Z"}
+{"level":"info","message":"Fetched board 68b349b4e7c3028082b820a3 for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:08:49.358Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3","timestamp":"2025-08-30T22:08:52.304Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:08:52.327Z"}
+{"level":"info","message":"Fetched board 68b349b4e7c3028082b820a3 for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:08:52.334Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3","timestamp":"2025-08-30T22:08:55.300Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:08:55.332Z"}
+{"level":"info","message":"Fetched board 68b349b4e7c3028082b820a3 for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:08:55.333Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3","timestamp":"2025-08-30T22:08:58.311Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:08:58.365Z"}
+{"level":"info","message":"Fetched board 68b349b4e7c3028082b820a3 for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:08:58.367Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3","timestamp":"2025-08-30T22:09:35.202Z"}
+{"level":"info","message":"Fetched board 68b349b4e7c3028082b820a3 for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:09:35.245Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:09:35.247Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3","timestamp":"2025-08-30T22:09:57.197Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:09:57.223Z"}
+{"level":"info","message":"Fetched board 68b349b4e7c3028082b820a3 for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:09:57.228Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3","timestamp":"2025-08-30T22:10:08.303Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:10:08.323Z"}
+{"level":"info","message":"Fetched board 68b349b4e7c3028082b820a3 for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:10:08.334Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3","timestamp":"2025-08-30T22:10:16.199Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:10:16.226Z"}
+{"level":"info","message":"Fetched board 68b349b4e7c3028082b820a3 for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:10:16.234Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3","timestamp":"2025-08-30T22:10:20.287Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:10:20.310Z"}
+{"level":"info","message":"Fetched board 68b349b4e7c3028082b820a3 for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:10:20.326Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3","timestamp":"2025-08-30T22:10:23.277Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:10:23.300Z"}
+{"level":"info","message":"Fetched board 68b349b4e7c3028082b820a3 for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:10:23.311Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3","timestamp":"2025-08-30T22:10:25.193Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:10:25.218Z"}
+{"level":"info","message":"Fetched board 68b349b4e7c3028082b820a3 for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:10:25.224Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3","timestamp":"2025-08-30T22:11:03.695Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:11:03.723Z"}
+{"level":"info","message":"Fetched board 68b349b4e7c3028082b820a3 for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:11:03.730Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3","timestamp":"2025-08-30T22:12:05.198Z"}
+{"level":"info","message":"Fetched board 68b349b4e7c3028082b820a3 for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:12:05.228Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3","timestamp":"2025-08-30T22:12:08.359Z"}
+{"level":"info","message":"Fetched board 68b349b4e7c3028082b820a3 for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:12:08.410Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3","timestamp":"2025-08-30T22:12:09.213Z"}
+{"level":"info","message":"Fetched board 68b349b4e7c3028082b820a3 for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:12:09.244Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3","timestamp":"2025-08-30T22:12:12.423Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:12:12.452Z"}
+{"level":"info","message":"Fetched board 68b349b4e7c3028082b820a3 for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:12:12.462Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3","timestamp":"2025-08-30T22:12:54.199Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:12:54.224Z"}
+{"level":"info","message":"Fetched board 68b349b4e7c3028082b820a3 for user 68b336b6f921130c821091c5","timestamp":"2025-08-30T22:12:54.240Z"}
+{"level":"info","message":"GET /api-docs/","timestamp":"2025-08-31T11:59:33.394Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui.css","timestamp":"2025-08-31T11:59:38.315Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-bundle.js","timestamp":"2025-08-31T11:59:38.715Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-standalone-preset.js","timestamp":"2025-08-31T11:59:38.728Z"}
+{"level":"info","message":"GET /api-docs/swagger-ui-init.js","timestamp":"2025-08-31T11:59:38.745Z"}
+{"level":"info","message":"GET /api-docs/favicon-32x32.png","timestamp":"2025-08-31T11:59:41.323Z"}
+{"level":"error","message":"Invalid token: jwt expired","timestamp":"2025-08-31T12:08:25.439Z"}
+{"level":"info","message":"Password comparison for john3@example.com: true","timestamp":"2025-08-31T12:08:49.614Z"}
+{"level":"info","message":"User logged in: john3@example.com, UID: 0d0ae2a4-b267-4149-b269-69c6b101b71d, Tenant ID: f6812eb4-dc98-4e9b-9a82-bca6fbaa66f8","timestamp":"2025-08-31T12:08:49.666Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T12:08:49.741Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-31T12:08:49.888Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-31T12:08:50.034Z"}
+{"level":"info","message":"GET /api/analytics?filter=last7days","timestamp":"2025-08-31T12:08:59.443Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T12:09:01.005Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-31T12:09:01.013Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-31T12:09:01.041Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3","timestamp":"2025-08-31T12:09:02.887Z"}
+{"level":"info","message":"Fetched board 68b349b4e7c3028082b820a3 for user 68b336b6f921130c821091c5","timestamp":"2025-08-31T12:09:02.921Z"}
+{"level":"info","message":"Password comparison for john3@example.com: true","timestamp":"2025-08-31T12:56:49.565Z"}
+{"level":"info","message":"User logged in: john3@example.com, UID: 0d0ae2a4-b267-4149-b269-69c6b101b71d, Tenant ID: f6812eb4-dc98-4e9b-9a82-bca6fbaa66f8","timestamp":"2025-08-31T12:56:49.767Z"}
+{"level":"info","message":"Password comparison for john3@example.com: true","timestamp":"2025-08-31T12:56:53.977Z"}
+{"level":"info","message":"User logged in: john3@example.com, UID: 0d0ae2a4-b267-4149-b269-69c6b101b71d, Tenant ID: f6812eb4-dc98-4e9b-9a82-bca6fbaa66f8","timestamp":"2025-08-31T12:56:54.017Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-31T12:57:22.553Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-31T12:57:22.666Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3/tasks","timestamp":"2025-08-31T12:57:52.448Z"}
+{"level":"info","message":"Fetched tasks for board 68b349b4e7c3028082b820a3, tenant f6812eb4-dc98-4e9b-9a82-bca6fbaa66f8","timestamp":"2025-08-31T12:57:52.518Z"}
+{"level":"info","message":"PUT /api/boards/68b349b4e7c3028082b820a3/tasks/68b373a813912f47a92bbfc6","timestamp":"2025-08-31T12:59:16.710Z"}
+{"level":"info","message":"Task 68b373a813912f47a92bbfc6 updated for board 68b349b4e7c3028082b820a3, tenant f6812eb4-dc98-4e9b-9a82-bca6fbaa66f8","timestamp":"2025-08-31T12:59:16.920Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3/tasks","timestamp":"2025-08-31T12:59:35.556Z"}
+{"level":"info","message":"Fetched tasks for board 68b349b4e7c3028082b820a3, tenant f6812eb4-dc98-4e9b-9a82-bca6fbaa66f8","timestamp":"2025-08-31T12:59:35.663Z"}
+{"level":"error","message":"Invalid token: jwt expired","timestamp":"2025-08-31T13:20:39.851Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3","timestamp":"2025-08-31T13:20:40.077Z"}
+{"level":"error","message":"Invalid token: jwt expired","timestamp":"2025-08-31T13:20:40.330Z"}
+{"level":"info","message":"Password comparison for john3@example.com: true","timestamp":"2025-08-31T13:20:48.099Z"}
+{"level":"info","message":"User logged in: john3@example.com, UID: 0d0ae2a4-b267-4149-b269-69c6b101b71d, Tenant ID: f6812eb4-dc98-4e9b-9a82-bca6fbaa66f8","timestamp":"2025-08-31T13:20:48.315Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:20:48.483Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-31T13:20:48.559Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:20:48.654Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3","timestamp":"2025-08-31T13:20:50.668Z"}
+{"level":"info","message":"Fetched board 68b349b4e7c3028082b820a3 for user 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:20:50.715Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3","timestamp":"2025-08-31T13:37:35.169Z"}
+{"level":"info","message":"Fetched board 68b349b4e7c3028082b820a3 for user 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:37:35.257Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:37:35.283Z"}
+{"level":"info","message":"GET /api/boards/68b349b4e7c3028082b820a3","timestamp":"2025-08-31T13:37:58.240Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:37:58.264Z"}
+{"level":"info","message":"Fetched board 68b349b4e7c3028082b820a3 for user 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:37:58.270Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:41:50.303Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-31T13:41:50.342Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:41:50.785Z"}
+{"level":"info","message":"POST /api/boards","timestamp":"2025-08-31T13:42:01.259Z"}
+{"level":"info","message":"Board created: t5 for user 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:42:01.893Z"}
+{"level":"info","message":"GET /api/boards/68b45129ffc72bf72ef0f997","timestamp":"2025-08-31T13:42:09.778Z"}
+{"level":"info","message":"Fetched board 68b45129ffc72bf72ef0f997 for user 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:42:09.810Z"}
+{"level":"info","message":"POST /api/boards/68b45129ffc72bf72ef0f997/tasks","timestamp":"2025-08-31T13:42:16.333Z"}
+{"level":"info","message":"Task created for board 68b45129ffc72bf72ef0f997 column To Do priority undefined, tenant f6812eb4-dc98-4e9b-9a82-bca6fbaa66f8","timestamp":"2025-08-31T13:42:16.542Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:43:15.114Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-31T13:43:15.124Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:43:15.603Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:44:50.582Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-31T13:44:50.694Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:44:50.783Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:44:51.224Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-31T13:44:51.264Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:44:51.294Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:45:31.211Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-31T13:45:31.224Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:45:31.253Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:47:07.211Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-31T13:47:07.216Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:47:07.253Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:47:12.209Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-31T13:47:12.215Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:47:12.244Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:47:32.210Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-31T13:47:32.215Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:47:32.290Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:48:04.271Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-31T13:48:04.282Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:48:04.316Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:48:05.208Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-31T13:48:05.212Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:48:05.241Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:48:15.235Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-31T13:48:15.241Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:48:15.269Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:51:34.919Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:51:34.952Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-31T13:51:34.964Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:51:35.008Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:51:45.688Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:51:45.723Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-31T13:51:45.911Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:51:45.939Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:51:46.879Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:51:46.908Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-31T13:51:46.971Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:51:47.000Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:51:56.068Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:51:56.098Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-31T13:51:56.133Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:51:56.161Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:52:03.290Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:52:03.351Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-31T13:52:03.357Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:52:03.387Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:52:11.198Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:52:11.261Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-31T13:52:11.270Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:52:11.323Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:52:22.560Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:52:22.589Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-31T13:52:22.596Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:52:22.626Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:52:25.841Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:52:25.885Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-31T13:52:25.889Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:52:25.917Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:52:27.195Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:52:27.236Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-31T13:52:27.241Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:52:27.271Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:52:41.271Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:52:41.301Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-31T13:52:41.307Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:52:41.340Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:53:01.567Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:53:01.602Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-31T13:53:01.614Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:53:01.642Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:53:05.156Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:53:05.185Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-31T13:53:05.190Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:53:05.217Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:53:13.602Z"}
+{"level":"info","message":"Fetched user info for 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:53:13.631Z"}
+{"level":"info","message":"GET /api/boards","timestamp":"2025-08-31T13:53:13.638Z"}
+{"level":"info","message":"Fetched boards for user 68b336b6f921130c821091c5","timestamp":"2025-08-31T13:53:13.668Z"}
