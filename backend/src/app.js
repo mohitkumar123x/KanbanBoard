@@ -8,18 +8,20 @@ const rateLimit = require('express-rate-limit');
 
 const app = express();
 
-// Enable trust proxy for Render's reverse proxy (fixes X-Forwarded-For error)
+// Enable trust proxy for Render's reverse proxy
 app.set('trust proxy', true);
 
 // Middleware
 app.use(cors());
 app.use(express.json());
 
-// Rate limiting with proxy support
+// Rate limiting with IPv6-safe key generation
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
   max: 100, // Limit each IP to 100 requests per windowMs
-  keyGenerator: (req) => req.ip, // Use resolved IP from trust proxy
+  keyGenerator: (req, res) => {
+    return rateLimit.ipKeyGenerator(req); // Use helper for IPv6 normalization
+  },
   // Optional: Skip localhost if needed (less relevant on Render)
   skip: (req) => req.ip === '127.0.0.1'
 });
@@ -31,7 +33,7 @@ app.use((req, res, next) => {
   next();
 });
 
-// Swagger configuration (parse routes after definition)
+// Swagger configuration with debug
 const swaggerOptions = {
   definition: {
     openapi: '3.0.0',
@@ -41,7 +43,7 @@ const swaggerOptions = {
       description: 'API for Kanban board application with authentication'
     },
     servers: [
-      { url: 'https://kanbanboard-e4w.onrender.com/api', description: 'Production server' }, // Updated for Render
+      { url: 'https://kanbanboard-e4w.onrender.com/api', description: 'Production server' },
       { url: 'http://localhost:5000/api', description: 'Local server' }
     ],
     components: {
@@ -54,11 +56,12 @@ const swaggerOptions = {
       }
     }
   },
-  // Adjust path based on route file location relative to app.js
-  apis: ['./src/routes/*.js'] // Assumes routes are in ./src/routes/ relative to app.js
+  // Absolute path to ensure correct resolution
+  apis: [__dirname + '/src/routes/*.js']
 };
 
 const swaggerDocs = swaggerJsdoc(swaggerOptions);
+console.log('Swagger paths:', JSON.stringify(swaggerDocs.paths, null, 2)); // Debug log
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 
 // Root route
@@ -66,7 +69,7 @@ app.get('/', (req, res) => {
   res.json({ message: 'Kanban Board Backend API. Visit /api-docs for documentation.' });
 });
 
-// Load routes AFTER Swagger initialization (ensures all endpoints are parsed)
+// Load routes AFTER Swagger initialization
 const authRoutes = require('./routes/auth');
 const boardRoutes = require('./routes/boards');
 const taskRoutes = require('./routes/tasks');
@@ -74,7 +77,7 @@ const taskRoutes = require('./routes/tasks');
 // Mount routes with consistent prefixes
 app.use('/api/auth', authRoutes);
 app.use('/api/boards', boardRoutes);
-app.use('/api/tasks', taskRoutes); // Changed from /api to /api/tasks for consistency
+app.use('/api/tasks', taskRoutes);
 
 // Error handling middleware
 app.use((err, req, res, next) => {
