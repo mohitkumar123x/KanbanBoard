@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const auth = require('../middleware/auth');
-const checkSubscription = require('../middleware/subscription');
+// const checkSubscription = require('../middleware/subscription');
 const taskController = require('../controllers/taskController');
 
 // CRUD routes with authentication and subscription checks
