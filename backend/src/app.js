@@ -57,7 +57,7 @@ const swaggerOptions = {
     }
   },
   // Absolute path to ensure correct resolution
-  apis: [__dirname + '/src/routes/*.js']
+  apis: [__dirname + '/routes/*.js']
 };
 
 const swaggerDocs = swaggerJsdoc(swaggerOptions);
