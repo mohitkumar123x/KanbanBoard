@@ -10,11 +10,11 @@ const logger = winston.createLogger({
   transports: [
     // Write all logs to backend.log
     new winston.transports.File({
-      filename: path.join(__dirname, '../../../logs/backend.log')
+      filename: path.join(__dirname, '../../logs/backend.log')
     }),
     // Write errors to errors.log
     new winston.transports.File({
-      filename: path.join(__dirname, '../../../logs/errors.log'),
+      filename: path.join(__dirname, '../../logs/errors.log'),
       level: 'error'
     }),
     // Also log to console in development
