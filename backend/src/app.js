@@ -1,27 +1,37 @@
-
 const express = require('express');
 const mongoose = require('mongoose');
-
-const authRoutes = require('./routes/auth');
-const boardRoutes = require('./routes/boards');
-const taskRoutes = require('./routes/tasks');
-
 const logger = require('./config/logger');
 const cors = require('cors');
 const swaggerUi = require('swagger-ui-express');
 const swaggerJsdoc = require('swagger-jsdoc');
-
 const rateLimit = require('express-rate-limit');
-// const Redis = require('ioredis');
-// const redis = new Redis(process.env.REDIS_URL);
-
 
 const app = express();
 
+// Enable trust proxy for Render's reverse proxy (fixes X-Forwarded-For error)
+app.set('trust proxy', true);
+
+// Middleware
 app.use(cors());
 app.use(express.json());
 
-// Swagger configuration
+// Rate limiting with proxy support
+const limiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 100, // Limit each IP to 100 requests per windowMs
+  keyGenerator: (req) => req.ip, // Use resolved IP from trust proxy
+  // Optional: Skip localhost if needed (less relevant on Render)
+  skip: (req) => req.ip === '127.0.0.1'
+});
+app.use(limiter);
+
+// Logging middleware
+app.use((req, res, next) => {
+  logger.info(`${req.method} ${req.url}`);
+  next();
+});
+
+// Swagger configuration (parse routes after definition)
 const swaggerOptions = {
   definition: {
     openapi: '3.0.0',
@@ -31,6 +41,7 @@ const swaggerOptions = {
       description: 'API for Kanban board application with authentication'
     },
     servers: [
+      { url: 'https://kanbanboard-e4w.onrender.com/api', description: 'Production server' }, // Updated for Render
       { url: 'http://localhost:5000/api', description: 'Local server' }
     ],
     components: {
@@ -43,48 +54,32 @@ const swaggerOptions = {
       }
     }
   },
-  apis: ['./src/routes/*.js']
+  // Adjust path based on route file location relative to app.js
+  apis: ['./src/routes/*.js'] // Assumes routes are in ./src/routes/ relative to app.js
 };
 
 const swaggerDocs = swaggerJsdoc(swaggerOptions);
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 
-app.use('/api/auth', authRoutes);
-
-
+// Root route
 app.get('/', (req, res) => {
   res.json({ message: 'Kanban Board Backend API. Visit /api-docs for documentation.' });
 });
 
+// Load routes AFTER Swagger initialization (ensures all endpoints are parsed)
+const authRoutes = require('./routes/auth');
+const boardRoutes = require('./routes/boards');
+const taskRoutes = require('./routes/tasks');
+
+// Mount routes with consistent prefixes
+app.use('/api/auth', authRoutes);
+app.use('/api/boards', boardRoutes);
+app.use('/api/tasks', taskRoutes); // Changed from /api to /api/tasks for consistency
+
+// Error handling middleware
 app.use((err, req, res, next) => {
   logger.error(`Server error: ${err.message}`);
   res.status(500).json({ error: 'Internal server error' });
 });
-
-app.use((req, res, next) => {
-  logger.info(`${req.method} ${req.url}`);
-  next();
-});
-
-
-app.use(rateLimit({
-  windowMs: 15 * 60 * 1000, // 15 minutes
-  max: 100, // Limit each IP to 100 requests per windowMs
-}));
-
-// app.get('/boards/:boardId', async (req, res, next) => {
-//   const cacheKey = `board:${req.params.boardId}:${req.user.tenantId}`;
-//   const cached = await redis.get(cacheKey);
-//   if (cached) return res.json(JSON.parse(cached));
-
-//   // Proceed with DB query
-//   const board = await Board.findOne({ _id: req.params.boardId, tenantId: req.user.tenantId });
-//   await redis.setex(cacheKey, 3600, JSON.stringify(board)); // Cache for 1 hour
-//   res.json(board);
-// });
-
-app.use('/auth', authRoutes);
-app.use('/api/boards', boardRoutes);
-app.use('/api', taskRoutes);
 
 module.exports = app;
