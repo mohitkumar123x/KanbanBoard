@@ -8,14 +8,13 @@ WORKDIR /app
 COPY package.json ./
 RUN npm install --production
 
-# Copy the src directory and other necessary files
+# Copy the src directory containing both server.js and app.js
 COPY src/ ./src/
-COPY app.js ./
 
 # Stage 2: Runtime Stage
 FROM node:18-slim
 
-# Set working directory to include src
+# Set working directory to src
 WORKDIR /app/src
 
 # Copy only necessary files from builder stage
