@@ -13,6 +13,20 @@ app.set('trust proxy', true);
 
 // Middleware
 app.use(cors());
+const corsOptions = {
+  origin: (origin, callback) => {
+    // Allow requests with no origin (like curl or Postman)
+    if (!origin) return callback(null, true);
+
+    // In Render, your API and Swagger UI share the same domain
+    // Allow the requesting origin dynamically
+    callback(null, true);
+  },
+  methods: 'GET,POST,PUT,DELETE',
+  allowedHeaders: ['Content-Type', 'Authorization']
+};
+
+app.use(cors(corsOptions));
 app.use(express.json());
 
 // Rate limiting with IPv6-safe key generation
