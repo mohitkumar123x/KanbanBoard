@@ -5,7 +5,7 @@ const auth = require('../middleware/auth');
 
 /**
  * @swagger
- * /api/auth/register:
+ * /auth/register:
  *   post:
  *     summary: Register a new user
  *     tags: [Auth]
@@ -52,7 +52,7 @@ router.post('/register', registerUser);
 
 /**
  * @swagger
- * /api/auth/login:
+ * /auth/login:
  *   post:
  *     summary: Login a user
  *     tags: [Auth]
@@ -97,7 +97,7 @@ router.post('/login', loginUser);
 
 /**
  * @swagger
- * /api/auth/me:
+ * /auth/me:
  *   get:
  *     summary: Get authenticated user info
  *     tags: [Auth]
