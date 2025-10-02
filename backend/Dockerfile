@@ -8,14 +8,15 @@ WORKDIR /app
 COPY package.json ./
 RUN npm install --production
 
-# Copy the rest of the application code
-COPY . .
+# Copy the src directory and other necessary files
+COPY src/ ./src/
+COPY app.js ./
 
 # Stage 2: Runtime Stage
 FROM node:18-slim
 
-# Set working directory
-WORKDIR /app
+# Set working directory to include src
+WORKDIR /app/src
 
 # Copy only necessary files from builder stage
 COPY --from=builder /app /app
@@ -36,5 +37,5 @@ EXPOSE ${PORT}
 HEALTHCHECK --interval=30s --timeout=3s --start-period=10s --retries=3 \
   CMD curl -f http://localhost:${PORT}/ || exit 1
 
-# Run the application
+# Run the application from the src directory
 CMD ["node", "server.js"]
