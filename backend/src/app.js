@@ -11,18 +11,28 @@ const app = express();
 // Enable trust proxy for Render's reverse proxy
 app.set('trust proxy', true);
 
-// Single CORS configuration with dynamic origin
+// CORS configuration with multiple allowed origins
 const corsOptions = {
   origin: (origin, callback) => {
-    // Allow requests with no origin (e.g., curl, Postman) and Render's domain
-    if (!origin || origin === 'https://kanbanboard-e4w.onrender.com') {
+    const allowedOrigins = [
+      'https://kanbanboard-e4w.onrender.com',
+      'https://kanbanboard-e4w6.onrender.com',
+      // Add other origins if needed (e.g., localhost for development)
+      'http://localhost:5000'
+    ];
+    // Allow requests with no origin (e.g., curl, Postman)
+    if (!origin) return callback(null, true);
+    // Check if the origin is in the allowed list
+    if (allowedOrigins.includes(origin)) {
       return callback(null, true);
     }
-    callback(new Error('Not allowed by CORS'), false); // Debug: Log rejected origins
+    logger.warn(`CORS rejected origin: ${origin}`);
+    return callback(new Error('Not allowed by CORS'), false);
   },
-  methods: 'GET,POST,PUT,DELETE',
+  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS', // Include OPTIONS for preflight
   allowedHeaders: ['Content-Type', 'Authorization'],
-  credentials: true // Allow cookies/auth headers if needed
+  credentials: true, // Allow cookies/auth headers if needed
+  optionsSuccessStatus: 204 // Ensure preflight returns 204 No Content
 };
 app.use(cors(corsOptions));
 
@@ -39,7 +49,7 @@ app.use(limiter);
 
 // Logging middleware
 app.use((req, res, next) => {
-  logger.info(`${req.method} ${req.url} - Origin: ${req.get('Origin') || 'No Origin'}`); // Debug origin
+  logger.info(`${req.method} ${req.url} - Origin: ${req.get('Origin') || 'No Origin'}`);
   next();
 });
 
