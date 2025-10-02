@@ -20,9 +20,9 @@ WORKDIR /app/src
 # Copy only necessary files from builder stage
 COPY --from=builder /app /app
 
-# Create logs directory and set permissions for myuser
-RUN mkdir -p /app/logs && \
-    chown myuser:myuser /app/logs
+# # Create logs directory and set permissions for myuser
+# RUN mkdir -p /app/logs && \
+#     chown myuser:myuser /app/logs
 
 # Create a non-root user and switch to it
 RUN useradd -m myuser && \
