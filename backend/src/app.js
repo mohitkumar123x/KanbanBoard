@@ -49,7 +49,8 @@ app.use(express.urlencoded({ extended: true }));
 
 
 
-app.use(cors({origin:"*"}))
+
+
 // Rate limiting (after CORS to avoid blocking preflight)
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000,
@@ -84,7 +85,7 @@ const swaggerOptions = {
     },
     servers: [
       { url: 'https://kanbanboard-e4w.onrender.com/api', description: 'Production server' },
-      { url: 'http://localhost:5000/api', description: 'Local server' }
+      // { url: 'http://localhost:5000/api', description: 'Local server' }
     ],
     components: {
       securitySchemes: {
@@ -103,7 +104,19 @@ try {
   const swaggerDocs = swaggerJsdoc(swaggerOptions);
   const pathCount = Object.keys(swaggerDocs.paths || {}).length;
   console.log(`✓ Swagger initialized with ${pathCount} paths`);
-  app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs));
+
+  // ✅ Swagger UI with forced HTTPS API URL
+  app.use(
+    '/api-docs',
+    swaggerUi.serve,
+    swaggerUi.setup(swaggerDocs, {
+      swaggerOptions: {
+        defaultModelsExpandDepth: -1,
+        // Ensure Swagger "Try it out" calls your Render HTTPS URL
+        url: 'https://kanbanboard-e4w6.onrender.com/api'
+      }
+    })
+  );
 } catch (error) {
   console.error('Swagger initialization failed:', error.message);
   // Continue without Swagger if it fails
