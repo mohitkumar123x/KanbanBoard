@@ -13,10 +13,9 @@ app.set('trust proxy', 1);
 
 // CRITICAL: Apply CORS as the very first middleware (before anything else)
 const allowedOrigins = [
-  'https://kanbanboard-e4w.onrender.com',
+
   'https://kanbanboard-e4w6.onrender.com',
-  'http://localhost:5000',
-  'http://localhost:3000'
+  
 ];
 
 // Simplified CORS - allow all during preflight, then check on actual request
@@ -84,7 +83,7 @@ const swaggerOptions = {
       description: 'API for Kanban board application with authentication'
     },
     servers: [
-      { url: 'https://kanbanboard-e4w.onrender.com/api', description: 'Production server' },
+      { url: 'https://kanbanboard-e4w6.onrender.com/api', description: 'Production server' },
       // { url: 'http://localhost:5000/api', description: 'Local server' }
     ],
     components: {
