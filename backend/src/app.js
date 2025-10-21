@@ -22,7 +22,7 @@ const allowedOrigins = [
 // Simplified CORS - allow all during preflight, then check on actual request
 app.use((req, res, next) => {
   const origin = req.headers.origin;
-  
+  console.log("origin-->",origin)
   // Set CORS headers for all requests
   if (origin && allowedOrigins.includes(origin)) {
     res.setHeader('Access-Control-Allow-Origin', origin);
@@ -47,6 +47,9 @@ app.use((req, res, next) => {
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+
+
+app.use(cors({origin:"*"}))
 // Rate limiting (after CORS to avoid blocking preflight)
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000,
