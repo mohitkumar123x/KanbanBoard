@@ -1,6 +1,6 @@
 import { createContext, useState, useEffect } from 'react';
 import axios from 'axios';
-
+import logger from '../services/logger';
 // Create the AuthContext
 export const AuthContext = createContext();
 
@@ -42,8 +42,12 @@ export const AuthProvider = ({ children }) => {
   const login = async (email, password) => {
     setLoading(true);
     setError(null);
-    try {
+
+    try 
+    {
+      logger.info("API URL :",process.env.REACT_APP_API_URL);
       const res = await axios.post(`${process.env.REACT_APP_API_URL}/auth/login`, { email, password });
+      logger.info("Login result :",res);
       localStorage.setItem('token', res.data.token);
       setUser(res.data.user);
     } catch (err) {
