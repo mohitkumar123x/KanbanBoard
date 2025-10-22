@@ -1,46 +1,40 @@
-# Stage 1: Build Stage
-FROM node:18 AS builder
-
-# Set working directory
+# ---- Stage 1: Build ----
+FROM node:18-alpine AS build
 WORKDIR /app
 
-# Copy package.json and install dependencies
-COPY package.json ./
-RUN npm install
+# Copy package.json and lock file
+COPY package*.json ./
 
-# Copy the rest of the application code
+# Install ALL dependencies (not just prod — build needs dev deps)
+RUN npm ci
+
+# Copy rest of the project files
 COPY . .
 
-# Build the React app
+# Build the production bundle
 RUN npm run build
 
-# Stage 2: Runtime Stage
-FROM node:18-slim
+# ---- Stage 2: Serve ----
+FROM node:18-alpine
 
-# Set working directory
 WORKDIR /app
 
-# Install serve globally for serving the static build
+# Install 'serve' to serve the static files
 RUN npm install -g serve
 
-# Copy only the build directory from the builder stage
-COPY --from=builder /app/build ./build
+# Copy build output from previous stage
+COPY --from=build /app/build ./build
 
-# Create a non-root user and switch to it
-RUN useradd -m myuser && \
-    chown myuser:myuser /app
-USER myuser
+# Set environment variables
+ENV NODE_ENV=production
+ENV PORT=3000
 
-# Set environment variables (overridden by Render)
-ENV NODE_ENV=production \
-    PORT=3000
+# Expose Render's expected port
+EXPOSE 3000
 
-# Expose port
-EXPOSE ${PORT}
+# Health check (optional)
+HEALTHCHECK --interval=30s --timeout=3s \
+  CMD wget -qO- http://localhost:3000/ || exit 1
 
-# Health check for the served app
-HEALTHCHECK --interval=30s --timeout=3s --start-period=10s --retries=3 \
-  CMD curl -f http://localhost:${PORT}/ || exit 1
-
-# Serve the build directory
-CMD ["serve", "-s", "build", "-l", ${PORT}]
+# Run serve on all interfaces
+CMD ["sh", "-c", "serve -s build -l 0.0.0.0:$PORT"]
