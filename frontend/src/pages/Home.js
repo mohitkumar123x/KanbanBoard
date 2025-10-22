@@ -29,14 +29,15 @@ const Home = () => {
           headers: { Authorization: `Bearer ${localStorage.getItem('token')}` }
         });
         setUserName(userResponse.data.name);
-        logger.info(`Fetched user info: ${userResponse}`);
+        logger.info(`Fetched user info:`,userResponse);
 
         // Fetch boards
         const boardsResponse = await api.get('/boards', {
           headers: { Authorization: `Bearer ${localStorage.getItem('token')}` }
         });
-        logger.info(`Fetched board info: ${boardsResponse}`);
-        setBoards(boardsResponse.data);
+        logger.info(`Fetched board info:`,boardsResponse);
+        // setBoards(boardsResponse.data);
+        setBoards(Array.isArray(boardsResponse.data) ? boardsResponse.data : boardsResponse.data.boards || []);
         logger.info('Fetched user boards successfully');
       } catch (err) {
         setError(err.response?.data?.error || 'Failed to fetch data');
