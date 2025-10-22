@@ -37,4 +37,4 @@ HEALTHCHECK --interval=30s --timeout=3s \
   CMD wget -qO- http://localhost:3000/ || exit 1
 
 # Run serve on all interfaces
-CMD ["sh", "-c", "serve -s build -l 0.0.0.0:$PORT"]
+CMD ["sh", "-c", "serve -s build -l $PORT"]
