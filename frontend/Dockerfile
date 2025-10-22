@@ -26,5 +26,6 @@ COPY --from=build /app/build ./build
 RUN echo 'window._env_ = { API_URL: "%%REACT_APP_API_URL%%" };' > ./build/env.js
 
 # Replace placeholder in env.js at container start with actual Render env var
-CMD sh -c "sed -i 's|%%REACT_APP_API_URL%%|'\"$REACT_APP_API_URL\"'|g' build/env.js && serve -s build -l ${PORT:-3000}"
+# CMD sh -c "sed -i 's|%%REACT_APP_API_URL%%|'\"$REACT_APP_API_URL\"'|g' build/env.js && serve -s build -l ${PORT:-3000}"
+CMD sh -c "echo 'window._env_ = { API_URL: \"${REACT_APP_API_URL}\" };' > ./build/env.js && serve -s build -l ${PORT}"
 
