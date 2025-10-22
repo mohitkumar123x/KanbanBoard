@@ -1,162 +1,3 @@
-// import React, { useEffect, useState } from 'react';
-// import { Link } from 'react-router-dom';
-// //import logger from '../services/logger';
- 
-// const Home = () => {
-//   // Mock board data (replace with API call when backend is running)
-//   const [boards, setBoards] = useState([
-//     { id: '1', title: 'Project A', description: 'Manage tasks for Project A' },
-//     { id: '2', title: 'Personal Tasks', description: 'Organize daily tasks' }
-//   ]);
- 
-//   // Use Web Worker to process board data (e.g., sorting)
-//   useEffect(() => {
-//     const worker = new Worker(new URL('../workers/boardWorker.js', import.meta.url));
-//     worker.postMessage({ tasks: boards }); // Using boards as mock data
-//     worker.onmessage = (e) => {
-//       setBoards(e.data); // Update with processed data
-//       logger.info('Home page boards processed in worker');
-//     };
-//     worker.onerror = (error) => {
-//       logger.error(`Worker error: ${error.message}`);
-//     };
-//     return () => worker.terminate();
-//   }, []);
- 
-//   return (
-//     <div className="min-h-screen bg-gray-100 p-6">
-//       {/* Welcome Section */}
-//       <header className="text-center mb-8">
-//         <h1 className="text-4xl font-bold text-gray-800 mb-2">Welcome to Kanban Board</h1>
-//         <p className="text-lg text-gray-600">Manage your tasks efficiently with our intuitive Kanban board.</p>
-//       </header>
- 
-//       {/* Navigation */}
-//       <nav className="flex justify-center space-x-4 mb-8">
-//         <Link to="/analytics" className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">
-//           View Analytics
-//         </Link>
-//         <button
-//           className="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600"
-//           onClick={() => logger.info('Create New Board clicked')}
-//         >
-//           Create New Board
-//         </button>
-//       </nav>
- 
-//       {/* Board List */}
-//       <section className="max-w-4xl mx-auto">
-//         <h2 className="text-2xl font-semibold text-gray-800 mb-4">My Boards</h2>
-//         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-//           {boards.map((board) => (
-//             <Link
-//               key={board.id}
-//               to={`/board/${board.id}`}
-//               className="p-4 bg-white rounded-lg shadow-md hover:shadow-lg"
-//               onClick={() => logger.info(`Navigated to board ${board.id}`)}
-//             >
-//               <h3 className="text-xl font-semibold text-gray-800">{board.title}</h3>
-//               <p className="text-gray-600">{board.description}</p>
-//             </Link>
-//           ))}
-//         </div>
-//       </section>
-//     </div>
-//   );
-// };
- 
-// export default Home;
-
-
-// import { Link } from 'react-router-dom';
-
-// const Home = () => {
-//   return (
-//     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
-//       <h1 className="text-4xl font-bold mb-6">Kanban Board</h1>
-//       <p className="text-lg mb-4">Organize your tasks with ease.</p>
-//       <div className="space-x-4">
-//         <Link to="/login" className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
-//           Login
-//         </Link>
-//         <Link to="/register" className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">
-//           Register
-//         </Link>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Home;
-
-
-// import React, { useEffect, useState } from 'react';
-// import { Link } from 'react-router-dom';
-// import logger from '../services/logger';
-
-// const Home = () => {
-//   const [boards, setBoards] = useState([
-//     { id: '1', title: 'Project A', description: 'Manage development tasks for Project A', createdAt: new Date() },
-//     { id: '2', title: 'Personal Tasks', description: 'Organize daily personal tasks', createdAt: new Date() },
-//     { id: '3', title: 'Work Sprint', description: 'Current sprint tasks', createdAt: new Date() }
-//   ]);
-
-  // useEffect(() => {
-  //   const worker = new Worker(new URL('../workers/boardWorker.js', import.meta.url));
-  //   worker.postMessage({ tasks: boards });
-  //   worker.onmessage = (e) => {
-  //     setBoards(e.data);
-  //     logger.info('Home page boards processed in worker');
-  //   };
-  //   worker.onerror = (error) => {
-  //     logger.error(`Worker error: ${error.message}`);
-  //   };
-  //   return () => worker.terminate();
-  // }, []);
-
-//   return (
-//     <div className="min-h-screen bg-gray-100 p-6">
-//       <header className="text-center mb-8">
-//         <h1 className="text-4xl font-bold text-gray-800 mb-2">Welcome to Kanban Board</h1>
-//         <p className="text-lg text-gray-600">Manage your tasks efficiently with our intuitive Kanban board.</p>
-//       </header>
-//       <nav className="flex justify-center space-x-4 mb-8">
-//         <Link to="/register" className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">
-//           Register
-//         </Link>
-//         <Link to="/analytics" className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">
-//           View Analytics
-//         </Link>
-//         <button
-//           className="px-4 py-2 bg-green-500 text-white rounded hover:bg-blue-600"
-//           onClick={() => logger.info('Create New Board clicked')}
-//         >
-//           Create New Board
-//         </button>
-//       </nav>
-//       <section className="max-w-4xl mx-auto">
-//         <h2 className="text-2xl font-semibold text-gray-800 mb-4">My Boards</h2>
-//         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-//           {boards.map((board) => (
-//             <Link
-//               key={board.id}
-//               to={`/board/${board.id}`}
-//               className="p-4 bg-white rounded-lg shadow-md hover:shadow-lg"
-//               onClick={() => logger.info(`Navigated to board ${board.id}`)}
-//             >
-//               <h3 className="text-xl font-semibold text-gray-800">{board.title}</h3>
-//               <p className="text-gray-600">{board.description}</p>
-//               <p className="text-sm text-gray-500">Created: {new Date(board.createdAt).toLocaleDateString()}</p>
-//             </Link>
-//           ))}
-//         </div>
-//       </section>
-//     </div>
-//   );
-// };
-
-// export default Home;
-
 
 import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
@@ -188,12 +29,13 @@ const Home = () => {
           headers: { Authorization: `Bearer ${localStorage.getItem('token')}` }
         });
         setUserName(userResponse.data.name);
-        logger.info(`Fetched user info: ${userResponse.data.name}`);
+        logger.info(`Fetched user info: ${userResponse}`);
 
         // Fetch boards
         const boardsResponse = await api.get('/boards', {
           headers: { Authorization: `Bearer ${localStorage.getItem('token')}` }
         });
+        logger.info(`Fetched board info: ${boardsResponse}`);
         setBoards(boardsResponse.data);
         logger.info('Fetched user boards successfully');
       } catch (err) {
@@ -213,11 +55,13 @@ const Home = () => {
 
   const handleCreateBoard = async (e) => {
     e.preventDefault();
+
     if (!newBoard.title) {
       setError('Board title is required');
       logger.error('Create board failed: Missing title');
       return;
     }
+
     try {
       const response = await api.post('/boards', newBoard, {
         headers: { Authorization: `Bearer ${localStorage.getItem('token')}` }
