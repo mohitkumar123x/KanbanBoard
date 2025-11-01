@@ -101,4 +101,4 @@ CMD sh -c "\
   # -l: listen port (uses Render's $PORT or fallback 3000) \
   # --listen 0.0.0.0: forces binding to all interfaces (required by Render) \
   # exec: replaces shell with serve → PID 1 → keeps container alive \
-  exec serve -s build -l ${PORT:-3000} --listen 0.0.0.0:${PORT:-3000}"
+  exec serve -s build --listen tcp://0.0.0.0:\${PORT}"
