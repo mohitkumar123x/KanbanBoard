@@ -15,13 +15,14 @@ app.set('trust proxy', 1);
 const allowedOrigins = [
 
   'https://kanbanboard-e4w6.onrender.com',
+  'https://kanbanboard-frontend-q73p.onrender.com',
   
 ];
 
 // Simplified CORS - allow all during preflight, then check on actual request
 app.use((req, res, next) => {
   const origin = req.headers.origin;
-  console.log("origin-->",origin)
+  // console.log("origin-->",origin)
   // Set CORS headers for all requests
   if (origin && allowedOrigins.includes(origin)) {
     res.setHeader('Access-Control-Allow-Origin', origin);
