@@ -1,69 +1,64 @@
+// src/context/AuthContext.js
 import { createContext, useState, useEffect } from 'react';
-import axios from 'axios';
+import api from '../api'; // Using centralized api
 import logger from '../services/logger';
-// Create the AuthContext
+
 export const AuthContext = createContext();
 
-// AuthProvider component to wrap the app
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  // Load user from token on mount
   useEffect(() => {
     const token = localStorage.getItem('token');
     if (token) {
-      const source = axios.CancelToken.source(); // For cleanup
+      const source = api.CancelToken?.source() || { token: {}, cancel: () => {} };
       setLoading(true);
-      axios
-        .get(`${process.env.REACT_APP_API_URL}/auth/me`, {
-          headers: { Authorization: `Bearer ${token}` },
-          cancelToken: source.token,
-        })
+
+      api.get('/auth/me', {
+        headers: { Authorization: `Bearer ${token}` },
+        cancelToken: source?.token,
+      })
         .then((res) => {
           setUser(res.data);
           setError(null);
         })
         .catch((err) => {
-          if (!axios.isCancel(err)) {
+          if (!api.isCancel?.(err)) {
             localStorage.removeItem('token');
             setError('Session expired or invalid token');
           }
         })
         .finally(() => setLoading(false));
-      return () => source.cancel('Component unmounted'); // Cleanup
+
+      return () => source.cancel('Component unmounted');
     } else {
       setLoading(false);
     }
-  }, []); // Empty dependency array for mount only
+  }, []);
 
-  // Login function
   const login = async (email, password) => {
     setLoading(true);
     setError(null);
-
-    try 
-    {
-      logger.info("API URL :",process.env.REACT_APP_API_URL);
-      const res = await axios.post(`${process.env.REACT_APP_API_URL}/auth/login`, { email, password });
-      logger.info("Login result :",res);
+    try {
+      logger.info("Calling login API:", `${api.defaults.baseURL}/auth/login`);
+      const res = await api.post('/auth/login', { email, password });
       localStorage.setItem('token', res.data.token);
       setUser(res.data.user);
     } catch (err) {
       setError('Login failed. Please check your credentials.');
-      throw err; // Allow calling component to handle
+      throw err;
     } finally {
       setLoading(false);
     }
   };
 
-  // Register function
   const register = async (email, password) => {
     setLoading(true);
     setError(null);
     try {
-      const res = await axios.post(`${process.env.REACT_APP_API_URL}/auth/register`, { email, password });
+      const res = await api.post('/auth/register', { email, password });
       localStorage.setItem('token', res.data.token);
       setUser(res.data.user);
     } catch (err) {
@@ -74,25 +69,14 @@ export const AuthProvider = ({ children }) => {
     }
   };
 
-  // Logout function
   const logout = () => {
     localStorage.removeItem('token');
     setUser(null);
     setError(null);
   };
 
-  // Provide the context value
-  const value = {
-    user,
-    loading,
-    error,
-    login,
-    register,
-    logout,
-  };
-
   return (
-    <AuthContext.Provider value={value}>
+    <AuthContext.Provider value={{ user, loading, error, login, register, logout }}>
       {children}
     </AuthContext.Provider>
   );

@@ -1,18 +1,25 @@
-
 import axios from 'axios';
 
-// const api = axios.create({
-//   baseURL: process.env.REACT_APP_API_URL || 'http://localhost:5000/api'
-// });
+// Runtime API URL from Docker injection
+const getApiUrl = () => {
+  if (window._env_ && window._env_.API_URL) {
+    return window._env_.API_URL;
+  }
+  // Fallback: build-time or dev
+  return process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
+};
+
+const API_URL = getApiUrl();
 
 const api = axios.create({
-  baseURL:  'https://kanbanboard-e4w6.onrender.com/api', 
+  baseURL: API_URL,
 });
-
 
 api.interceptors.request.use((config) => {
   const token = localStorage.getItem('token');
-  if (token) {config.headers.Authorization = `Bearer ${token}`;}
+  if (token) {
+    config.headers.Authorization = `Bearer ${token}`;
+  }
   return config;
 });
 
