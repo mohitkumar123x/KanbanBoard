@@ -30,7 +30,7 @@ import React, {
 import { AuthContext } from '../../contexts/AuthContext';     // Provides login()
 import { useNavigate, Link } from 'react-router-dom';         // Navigation
 import { motion } from 'framer-motion';                      // Animations
-import logger from '../../services/logger';                  // Centralized logging
+import logger from '../../services/logger';            // Centralized logging
 
 // ─────────────────────────────────────────────────────────────────────────────
 // 1. LAZY-LOAD HEAVY COMPONENTS

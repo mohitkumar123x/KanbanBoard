@@ -29,7 +29,7 @@ import React, {
 import { Link, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import api from '../services/api';          // Uses window._env_.API_URL
-import logger from '../../services/logger';
+import logger from '../services/logger'
 import { setAuth } from '../../components/Store/authSlice';
 import { useDispatch } from 'react-redux';
 
