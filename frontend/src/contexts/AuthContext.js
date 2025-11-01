@@ -1,6 +1,6 @@
 // src/context/AuthContext.js
 import { createContext, useState, useEffect } from 'react';
-import api from '../api'; // Using centralized api
+import api from '../services/api'; // Using centralized api
 import logger from '../services/logger';
 
 export const AuthContext = createContext();
