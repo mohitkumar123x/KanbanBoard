@@ -10,12 +10,14 @@ import { setAuth } from '../components/Store/authSlice';
 import { useDispatch } from 'react-redux';
 
 const Register = () => {
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     password: '',
     confirmPassword: '',
   });
+
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
@@ -96,6 +98,7 @@ const Register = () => {
   };
 
   return (
+
     <div className="relative min-h-screen bg-gray-100 flex items-center justify-center p-6 overflow-hidden">
       {/* ---- Particle background ---- */}
       <Particles
@@ -242,9 +245,9 @@ const Register = () => {
 
         <p className="mt-4 text-center text-gray-600">
           Already have an account?{' '}
-          <Link to="/login" className="text-blue-500 hover:underline">
-            Login
-          </Link>
+            <Link to="/login" className="text-blue-500 hover:underline">
+              Login
+            </Link>
         </p>
       </motion.div>
     </div>

@@ -6,6 +6,8 @@ import logger from '../../services/logger';
 import Particles from 'react-tsparticles';
 import { loadSlim } from 'tsparticles-slim';
 
+
+
 const Login = () => {
   const { login } = useContext(AuthContext);
   const [email, setEmail] = useState('');
@@ -110,7 +112,10 @@ const Login = () => {
               onClick={toggleShowPassword}
               className="absolute right-2 top-10 text-gray-500 hover:text-gray-700"
             >
-              {showPassword ? '👁️' : '👁️‍🗨️'}
+              
+              <span className="text-2xl">
+                {showPassword ? '🙉' : '🙈'}
+              </span>
             </button>
           </div>
           <button
