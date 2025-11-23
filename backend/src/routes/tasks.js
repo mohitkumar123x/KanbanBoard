@@ -81,7 +81,7 @@ const taskController = require('../controllers/taskController');
  *         description: Server error
  */
 // router.post('/boards/:boardId/tasks', auth, checkSubscription, taskController.createTask);
-router.post('/boards/:boardId/tasks', auth, taskController.createTask);
+router.post('/:boardId/tasks', auth, taskController.createTask);
 
 /**
  * @swagger
@@ -129,7 +129,7 @@ router.post('/boards/:boardId/tasks', auth, taskController.createTask);
  *       500:
  *         description: Server error
  */
-router.get('/boards/:boardId/tasks', auth, taskController.getTasksByBoard);
+router.get('/:boardId/tasks', auth, taskController.getTasksByBoard);
 
 /**
  * @swagger
@@ -211,7 +211,7 @@ router.get('/boards/:boardId/tasks', auth, taskController.getTasksByBoard);
  *       500:
  *         description: Server error
  */
-router.put('/boards/:boardId/tasks/:taskId', auth, taskController.updateTask);
+router.put('/:boardId/tasks/:taskId', auth, taskController.updateTask);
 
 /**
  * @swagger
@@ -251,6 +251,6 @@ router.put('/boards/:boardId/tasks/:taskId', auth, taskController.updateTask);
  *       500:
  *         description: Server error
  */
-router.delete('/boards/:boardId/tasks/:taskId', auth, taskController.deleteTask);
+router.delete('/:boardId/tasks/:taskId', auth, taskController.deleteTask);
 
 module.exports = router;

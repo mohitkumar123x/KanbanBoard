@@ -149,7 +149,7 @@ try {
   
   app.use('/api/auth', authRoutes);
   app.use('/api/boards', boardRoutes);
-  app.use('/api/tasks', taskRoutes);
+  app.use('/api/boards', taskRoutes);
   
   console.log('✓ Routes loaded successfully');
 } catch (error) {
